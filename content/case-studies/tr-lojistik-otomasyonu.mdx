@@ -1,0 +1,183 @@
+---
+title: "Lojistik Şirketinde %80 Zaman Tasarrufu Sağlayan Otomasyon"
+date: "2024-01-10"
+description: "Orta ölçekli lojistik şirketinin manuel süreçlerini otomatikleştirerek nasıl haftalık 32 saat tasarruf sağladığımızı keşfedin."
+image: "/case-studies/logistics-automation.jpg"
+client: "LogiFlow Lojistik"
+industry: "Lojistik & Taşımacılık"
+challenge: "Manuel fatura işlemleri, gümrük beyanname hazırlığı ve müşteri bilgilendirme süreçleri çok fazla zaman alıyordu."
+solution: "n8n ve Google Workspace entegrasyonu ile uçtan uca otomasyon sistemi kuruldu."
+results: [
+  "Haftalık 32 saat zaman tasarrufu",
+  "%95 hata azalması",
+  "Müşteri memnuniyetinde %40 artış",
+  "Operasyonel maliyetlerde %25 düşüş"
+]
+locale: "tr"
+---
+
+## Proje Özeti
+
+LogiFlow Lojistik, Türkiye'nin önde gelen orta ölçekli lojistik şirketlerinden biri. 50+ çalışanı ve günlük 200+ sevkiyat işlemiyle büyüyen şirket, manuel süreçlerin getirdiği yükle başa çıkmakta zorlanıyordu.
+
+## Karşılaştığımız Problemler
+
+### 1. Manuel Fatura İşlemleri
+- Her sevkiyat için manuel fatura oluşturma
+- Excel tabloları arasında veri kopyalama
+- E-posta ile manuel gönderim
+- **Haftalık harcanan zaman: 16 saat**
+
+### 2. Gümrük Beyanname Hazırlığı
+- Müşteri bilgilerini manuel toplama
+- Ürün kodlarını elle girme
+- Beyanname formlarını tek tek doldurma
+- **Haftalık harcanan zaman: 12 saat**
+
+### 3. Müşteri Bilgilendirme
+- Sevkiyat durumu güncellemelerini manuel gönderme
+- Telefon aramalarıyla durum bildirimi
+- WhatsApp mesajlarını tek tek yazma
+- **Haftalık harcanan zaman: 8 saat**
+
+## Çözüm Yaklaşımımız
+
+### Teknoloji Stack'i
+- **n8n**: Ana otomasyon platformu
+- **Google Sheets**: Veri yönetimi
+- **Gmail**: Otomatik e-posta gönderimi
+- **WhatsApp Business API**: Anlık bildirimler
+- **Gümrük Müşavirlik Sistemi**: API entegrasyonu
+
+### 1. Fatura Otomasyonu
+
+```mermaid
+graph LR
+    A[Sevkiyat Kaydı] --> B[n8n Tetikleme]
+    B --> C[Müşteri Bilgileri]
+    C --> D[Fatura Oluşturma]
+    D --> E[PDF Üretimi]
+    E --> F[E-posta Gönderimi]
+    F --> G[Kayıt Güncelleme]
+```
+
+**Sonuç**: 16 saatten 2 saate düştü (%87.5 tasarruf)
+
+### 2. Gümrük Beyanname Otomasyonu
+
+Sevkiyat bilgileri otomatik olarak:
+- Gümrük sistemine aktarılıyor
+- Beyanname formatına dönüştürülüyor
+- İlgili otoritelere gönderiliyor
+
+**Sonuç**: 12 saatten 1 saate düştü (%91 tasarruf)
+
+### 3. Müşteri Bilgilendirme Otomasyonu
+
+- **SMS**: Sevkiyat başlangıcında
+- **WhatsApp**: Ara durak güncellemeleri
+- **E-posta**: Teslimat onayı
+- **Dashboard**: Gerçek zamanlı takip
+
+**Sonuç**: 8 saatten 0.5 saate düştü (%94 tasarruf)
+
+## Uygulama Süreci
+
+### Hafta 1-2: Keşif ve Analiz
+- Mevcut süreçlerin detaylı incelenmesi
+- Sistem entegrasyonlarının planlanması
+- Test ortamının hazırlanması
+
+### Hafta 3-4: Geliştirme
+- n8n workflow'larının kurulumu
+- API entegrasyonlarının yapılması
+- Test senaryolarının çalıştırılması
+
+### Hafta 5-6: Test ve Optimizasyon
+- Pilot uygulamalar
+- Kullanıcı geri bildirimlerinin alınması
+- Sistem ince ayarları
+
+### Hafta 7-8: Canlıya Alma ve Eğitim
+- Tam kapsamlı devreye alma
+- Ekip eğitimleri
+- 7/24 destek sağlanması
+
+## Elde Edilen Sonuçlar
+
+### Nicel Faydalar
+
+| Metrik | Öncesi | Sonrası | İyileşme |
+|--------|--------|---------|----------|
+| Haftalık Manuel İş | 36 saat | 3.5 saat | %90 azalma |
+| Fatura Hazırlama | 16 saat | 2 saat | %87.5 azalma |
+| Hata Oranı | %8 | %0.4 | %95 azalma |
+| Müşteri Şikayeti | 15/ay | 3/ay | %80 azalma |
+
+### Nitel Faydalar
+
+**Çalışan Memnuniyeti**
+> "Artık rutin işlerle uğraşmak yerine stratejik konulara odaklanabiliyorum." 
+> *- Operasyon Müdürü*
+
+**Müşteri Deneyimi**
+> "Sevkiyatımın her aşamasından anlık haberdar oluyorum. Çok profesyonel bir hizmet."
+> *- Müşteri Yorumu*
+
+**Yönetim Perspektifi**
+> "Operasyonel verimliliğimiz katlanarak arttı. Aynı ekiple %50 daha fazla iş yapabiliyoruz."
+> *- Genel Müdür*
+
+## Finansal Etki
+
+### Maliyet Tasarrufu (Aylık)
+- **İşgücü tasarrufu**: ₺18,000
+- **Hata maliyeti azalması**: ₺5,000
+- **Kağıt/posta tasarrufu**: ₺1,200
+- **Toplam tasarruf**: ₺24,200/ay
+
+### Yatırım Geri Dönüşü
+- **Proje maliyeti**: ₺45,000
+- **Aylık tasarruf**: ₺24,200
+- **ROI süresi**: 1.8 ay
+- **Yıllık ROI**: %645
+
+## Öğrenilen Dersler
+
+### Başarı Faktörleri
+1. **Ekip Desteği**: Çalışanların sürece dahil edilmesi kritikti
+2. **Aşamalı Geçiş**: Tüm süreçleri aynı anda değiştirmek yerine adım adım yaklaşım
+3. **Sürekli İyileştirme**: Kullanıcı geri bildirimlerine dayalı optimizasyonlar
+
+### Karşılaşılan Zorluklar
+1. **Eski Sistem Entegrasyonu**: Legacy sistemlerle API bağlantısı
+2. **Veri Kalitesi**: Mevcut verilerin temizlenmesi gerekti
+3. **Değişim Direnci**: Bazı çalışanların adaptasyon süreci
+
+## Gelecek Planları
+
+### Faz 2 Geliştirmeleri
+- **AI Entegrasyonu**: Talep tahmini ve rota optimizasyonu
+- **Mobile App**: Sürücüler için mobil uygulama
+- **IoT Sensörler**: Araç ve yük takibi
+
+### Ölçeklendirme
+- Diğer şubelere yaygınlaştırma
+- Partner şirketlerle entegrasyon
+- Sektörel çözüm paketi geliştirme
+
+## Sonuç
+
+LogiFlow Lojistik projesi, orta ölçekli şirketlerin otomasyon ile nasıl büyük verimlilik kazançları elde edebileceğinin mükemmel bir örneği. 
+
+**Ana başarı faktörleri:**
+- Doğru teknoloji seçimi
+- Aşamalı implementasyon
+- Ekip odaklı yaklaşım
+- Sürekli optimizasyon
+
+Bu proje, benzer profildeki şirketler için bir yol haritası niteliğinde. Doğru planlama ve uygulama ile kısa sürede yatırım geri dönüşü sağlanabilir.
+
+---
+
+*Bu vaka çalışması gerçek bir müşteri deneyimini temel alır. Benzer sonuçlar elde etmek için [bizimle iletişime geçin](/tr/contact).*

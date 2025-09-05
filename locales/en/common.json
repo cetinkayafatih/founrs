@@ -1,0 +1,640 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "solutions": "Why n8n",
+    "pricing": "Pricing",
+    "caseStudies": "Case Studies",
+    "blog": "Blog",
+    "contact": "Book a Call"
+  },
+  "hero": {
+    "badge": "🚀 Automate & Harmonize",
+    "title": "Stop Overpaying for Automation. Build Without Limits.",
+    "subtitle": "We are FOUNRS, the expert n8n agency for founders and operators. We replace your expensive and restrictive Zapier/Make workflows with powerful, scalable, and cost-effective automation foundations.",
+    "primaryCta": "Book a Free Strategy Call",
+    "secondaryCta": "Learn About n8n",
+    "socialProof": "Trusted by teams using HubSpot, Webflow, Airtable, and more."
+  },
+  "sections": {
+    "painPoints": {
+      "title": "We solve your workflow problems",
+      "subtitle": "Are repetitive tasks, manual errors, and time waste slowing down your business?",
+      "points": [
+        {
+          "title": "Manual Processes",
+          "description": "Hours of repetitive tasks are exhausting your team"
+        },
+        {
+          "title": "Human Errors",
+          "description": "Data entry and transfer errors lead to costly problems"
+        },
+        {
+          "title": "Time Waste",
+          "description": "Time spent on non-value-adding work prevents growth"
+        },
+        {
+          "title": "Integration Gaps",
+          "description": "Disconnected communication between systems creates inefficiency"
+        }
+      ]
+    },
+    "problemSolution": {
+      "title": "Tired of Hitting Walls with \"No-Code\" Tools?",
+      "subtitle": "Most businesses are trapped in expensive, restrictive automation platforms. There's a better way to build your operational foundation.",
+      "problemTitle": "The Zapier Trap",
+      "solutionTitle": "The FOUNRS Foundation",
+      "problems": [
+        {
+          "title": "High monthly bills that scale unpredictably",
+          "description": "Task limits force you into expensive plans as you grow"
+        },
+        {
+          "title": "Restrictive task limits",
+          "description": "Hit arbitrary limits just when your business needs automation most"
+        },
+        {
+          "title": "Lack of control over your data",
+          "description": "Your business logic and data flow through third-party servers"
+        },
+        {
+          "title": "Inability to handle complex, multi-step logic",
+          "description": "Simple triggers and actions can't handle real business complexity"
+        }
+      ],
+      "solutions": [
+        {
+          "title": "Predictable, lower costs with open-source n8n",
+          "description": "Self-host or use managed hosting - either way, you control costs"
+        },
+        {
+          "title": "Full data privacy with self-hosting options",
+          "description": "Keep sensitive business data on your own infrastructure"
+        },
+        {
+          "title": "Limitless flexibility for custom logic and APIs",
+          "description": "Handle any business logic with JavaScript and custom functions"
+        },
+        {
+          "title": "A scalable system that grows with you",
+          "description": "No arbitrary limits - scale your workflows as your business grows"
+        }
+      ],
+      "cta": "Escape the Trap - Book Your Free Call"
+    },
+    "whyFounrs": {
+      "badge": "Expertise You Can Trust",
+      "title": "We're Not Just Coders, We're Strategic Builders.",
+      "description": "FOUNRS was founded by a builder, for builders. We've experienced the frustration of hitting walls with inflexible tools firsthand. That's why we don't just 'connect apps'—we architect robust operational foundations using the limitless power of n8n. We treat your business as if it were our own.",
+      "founder": {
+        "name": "Fatih Çetinkaya",
+        "title": "Founder & Lead n8n Architect"
+      },
+      "linkedinButton": "Connect on LinkedIn"
+    },
+    "logoWall": {
+      "title": "The Building Blocks of Modern Operations",
+      "subtitle": "We're experts in the technologies that power modern businesses. Whatever tools you use, we can connect them seamlessly.",
+      "bottomText": "And 50+ more integrations. If it has an API, we can connect it.",
+      "ctaButton": "Discuss Your Tech Stack"
+    },
+    "servicesSection": {
+      "title": "Our n8n Services",
+      "subtitle": "From custom workflow development to complete Zapier migrations, we're your strategic n8n automation partner.",
+      "services": [
+        {
+          "title": "Workflow Development",
+          "description": "Custom, done-for-you n8n workflow creation",
+          "details": [
+            "Business process analysis and mapping",
+            "Custom n8n workflow development",
+            "Integration with your existing tools",
+            "Testing and optimization",
+            "Documentation and handover"
+          ]
+        },
+        {
+          "title": "Zapier/Make Migration",
+          "description": "We seamlessly migrate all your existing zaps to a more powerful and cost-effective n8n setup",
+          "details": [
+            "Complete audit of existing automations",
+            "Migration strategy and timeline",
+            "Enhanced workflows with n8n capabilities",
+            "Cost analysis and savings projection",
+            "Zero-downtime transition"
+          ]
+        },
+        {
+          "title": "Managed n8n & Consulting",
+          "description": "We set up, host, and maintain your n8n instance, acting as your dedicated automation partner",
+          "details": [
+            "Managed n8n hosting and maintenance",
+            "Ongoing workflow optimization",
+            "Strategic automation consulting",
+            "24/7 monitoring and support",
+            "Regular performance reports"
+          ]
+        }
+      ],
+      "learnMore": "Learn More",
+      "cta": {
+        "title": "Ready to Transform Your Operations?",
+        "subtitle": "Let's discuss which service fits your automation needs best.",
+        "button": "Book Your Free Strategy Call"
+      }
+    },
+    "howItWorks": {
+      "title": "Our Path to Your Operational Freedom",
+      "subtitle": "A strategic 3-step approach that transforms your business from reactive operations to proactive automation leadership.",
+      "steps": [
+        {
+          "title": "Map Your Vision",
+          "description": "We start with a deep-dive strategy session to understand not just your current processes, but your future goals. We identify the highest-impact automation opportunities.",
+          "details": [
+            "Strategic vision alignment",
+            "High-impact opportunity mapping",
+            "Competitive advantage analysis",
+            "ROI projection and timeline"
+          ]
+        },
+        {
+          "title": "Build Your Foundation",
+          "description": "Our experts design and build your custom n8n workflows, creating a robust and scalable automation engine at the core of your business.",
+          "details": [
+            "Enterprise-grade architecture",
+            "Scalable workflow engineering",
+            "Strategic system integration",
+            "Performance optimization"
+          ]
+        },
+        {
+          "title": "Empower Your Team",
+          "description": "We deliver a fully-tested system, provide comprehensive training, and offer ongoing support to ensure you get the maximum value from your investment.",
+          "details": [
+            "Complete system handover",
+            "Strategic training programs",
+            "Operational excellence documentation",
+            "Long-term success partnership"
+          ]
+        }
+      ],
+      "cta": {
+        "subtitle": "Ready to claim your operational freedom?",
+        "button": "Start with Step 1 - Map Your Vision"
+      }
+    },
+    "integrations": {
+      "title": "Powerful Integrations",
+      "subtitle": "We connect all the tools you use",
+      "additionalText": "And integration support with many more platforms"
+    },
+    "pipelines": {
+      "title": "Automation Pipelines",
+      "subtitle": "Strengthen your workflows with smart automation",
+      "badgeText": "Automated",
+      "examples": [
+        {
+          "title": "CRM Automation",
+          "description": "Complete process from leads to customers, automated"
+        },
+        {
+          "title": "Financial Processes",
+          "description": "From invoice processing to reporting"
+        },
+        {
+          "title": "Customer Support",
+          "description": "24/7 support with WhatsApp and chat bots"
+        }
+      ]
+    },
+    "metrics": {
+      "title": "We Speak with Results",
+      "stats": [
+        {
+          "value": "80%",
+          "label": "Time Savings"
+        },
+        {
+          "value": "95%",
+          "label": "Error Reduction"
+        },
+        {
+          "value": "300%",
+          "label": "ROI Increase"
+        },
+        {
+          "value": "24/7",
+          "label": "Continuous Operation"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "What Our Customers Say",
+      "items": [
+        {
+          "quote": "With PRISMR, operational friction vanished and our team’s throughput soared.",
+          "author": "John Smith",
+          "company": "TechCorp",
+          "role": "General Manager"
+        },
+        {
+          "quote": "Our error rate decreased by 95%, customer satisfaction increased.",
+          "author": "Sarah Johnson",
+          "company": "LogiFlow",
+          "role": "Operations Manager"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "What tools do you use?",
+          "answer": "We integrate n8n, Zapier, Make, WhatsApp Cloud API, Google Workspace, HubSpot, Supabase and many other popular tools."
+        },
+        {
+          "question": "Do you provide maintenance and support?",
+          "answer": "Yes, we have monthly maintenance packages and SLA options. We provide 24/7 technical support."
+        },
+        {
+          "question": "How long does a project take?",
+          "answer": "It varies between 2-8 weeks depending on project complexity. We share a detailed timeline in the discovery meeting."
+        },
+        {
+          "question": "Is it compatible with our existing systems?",
+          "answer": "Yes, we provide integration without disrupting your existing systems. We establish secure connections through APIs."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Let's Get Started",
+      "subtitle": "Contact us today for a free discovery meeting",
+      "button": "Free Consultation"
+    },
+    "finalCta": {
+      "title": "Ready to Build Your Automation Foundation?",
+      "subtitle": "Book a complimentary 30-minute strategy call. We'll analyze your current setup and provide actionable insights you can use immediately, with no obligation.",
+      "benefits": [
+        {
+          "title": "Free Analysis",
+          "description": "We'll audit your current automation setup and identify opportunities"
+        },
+        {
+          "title": "Actionable Insights",
+          "description": "Get specific recommendations you can implement right away"
+        },
+        {
+          "title": "No Obligation",
+          "description": "Zero pressure - just valuable insights for your business"
+        }
+      ],
+      "button": "Book Your Free Call Now",
+      "socialProof": "Join 50+ companies who've transformed their operations with FOUNRS",
+      "left": {
+        "title": "What to Expect in Your Call:",
+        "items": [
+          "Deep-dive into your current processes and pain points",
+          "Custom automation recommendations for your business",
+          "Cost-benefit analysis of switching to n8n",
+          "Clear next steps, whether you work with us or not"
+        ]
+      },
+      "right": {
+        "title": "Call Details:",
+        "items": [
+          "30 minutes via Google Meet or Zoom",
+          "Available Monday-Friday, 9 AM - 6 PM EST",
+          "No sales pitch - just valuable insights",
+          "Recording available upon request"
+        ]
+      }
+    }
+  },
+  "pricing": {
+    "title": "Choose Your Plan",
+    "subtitle": "Transparent pricing, no hidden costs",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "description": "Quick start, basic integrations",
+        "price": "150",
+        "currency": "€",
+        "period": "/month",
+        "features": [
+          "3 automation pipelines",
+          "Basic integrations",
+          "Email support",
+          "Monthly report"
+        ]
+      },
+      "pro": {
+        "name": "Pro",
+        "description": "Scalable automation for growing teams",
+        "price": "450",
+        "currency": "€",
+        "period": "/month",
+        "features": [
+          "Unlimited automation",
+          "Advanced integrations",
+          "Priority support",
+          "Weekly reports",
+          "Custom training"
+        ],
+        "popular": true
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "description": "Custom integration, SLA, security",
+        "price": "Custom",
+        "currency": "",
+        "period": "pricing",
+        "features": [
+          "Custom development",
+          "SLA guarantee",
+          "Dedicated account manager",
+          "24/7 phone support",
+          "Security audit"
+        ]
+      }
+    },
+    "addons": {
+      "title": "Add-on Services",
+      "items": [
+        {
+          "name": "N8N Hosting",
+          "price": "€30/month"
+        },
+        {
+          "name": "Custom Integration",
+          "price": "€180"
+        },
+        {
+          "name": "Training Package",
+          "price": "€90"
+        },
+        {
+          "name": "Maintenance Package",
+          "price": "€60/month"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Contact us immediately to discuss your projects",
+    "form": {
+      "name": "Full Name",
+      "email": "Email",
+      "company": "Company",
+      "useCase": "Use Case",
+      "message": "Message",
+      "submit": "Send",
+      "success": "Your message has been sent successfully!",
+      "error": "An error occurred. Please try again."
+    },
+    "useCases": [
+      "CRM Automation",
+      "Financial Processes",
+      "Customer Support",
+      "E-commerce",
+      "Reporting",
+      "Other"
+    ],
+    "whatsapp": "Contact via WhatsApp"
+  },
+  "caseStudiesPage": {
+    "hero": {
+      "subtitle": "Discover our clients' success stories. Real results and experiences from actual projects."
+    },
+    "grid": {
+      "emptyState": "No case studies found yet.",
+      "challengeLabel": "Challenge",
+      "resultsLabel": "Results",
+      "moreResults": "more results...",
+      "readMore": "View Details"
+    }
+  },
+  "blogPage": {
+    "hero": {
+      "subtitle": "Expert insights and practical guides on business process automation, digital transformation, and efficiency."
+    },
+    "grid": {
+      "emptyState": "No blog posts found yet.",
+      "readingTimeUnit": "min"
+    }
+  },
+  "contactPage": {
+    "hero": {
+      "methods": {
+        "whatsapp": {
+          "title": "WhatsApp",
+          "description": "Quick communication",
+          "action": "Write on WhatsApp"
+        },
+        "email": {
+          "title": "Email",
+          "description": "For detailed information",
+          "action": "Send Email"
+        },
+        "phone": {
+          "title": "Phone",
+          "description": "Direct conversation",
+          "action": "Call"
+        }
+      }
+    },
+    "form": {
+      "fields": {
+        "name": "Full Name",
+        "email": "Email",
+        "company": "Company",
+        "useCase": "Use Case",
+        "message": "Message"
+      },
+      "placeholders": {
+        "name": "John Doe",
+        "email": "example@company.com",
+        "company": "Company Name",
+        "useCase": "Select use case",
+        "message": "Share details about your project..."
+      },
+      "submit": "Send",
+      "submitting": "Sending...",
+      "privacyText": "By submitting your form, you agree to our privacy policy."
+    }
+  },
+  "footer": {
+    "tagline": "Building the operational foundations for visionary companies.",
+    "navigate": "Navigate",
+    "company": {
+      "title": "Company",
+      "links": [
+        "About Us",
+        "Careers",
+        "Contact"
+      ]
+    },
+    "services": {
+      "title": "Services",
+      "links": [
+        "Workflow Automation",
+        "CRM Integration",
+        "Financial Processes",
+        "Support Bots"
+      ]
+    },
+    "resources": {
+      "title": "Resources",
+      "links": [
+        "Blog",
+        "Case Studies",
+        "Documentation",
+        "Help Center"
+      ]
+    },
+    "legal": {
+      "title": "Legal",
+      "links": [
+        "Privacy Policy",
+        "Terms of Service"
+      ]
+    },
+    "connect": "Connect",
+    "social": {
+      "linkedin": "LinkedIn",
+      "twitter": "X (Twitter)",
+      "email": "hello@founrs.com"
+    },
+    "copyright": "© 2025 FOUNRS. All Rights Reserved."
+  },
+  "common": {
+    "readMore": "Read More",
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "contactUs": "Contact Us",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success"
+  },
+  "servicesPage": {
+    "hero": {
+      "title": "Our n8n Services",
+      "subtitle": "From complete Zapier migrations to custom-built operational foundations, we are your strategic automation partner."
+    },
+    "grid": {
+      "services": [
+        {
+          "title": "Custom Workflow Development",
+          "description": "For businesses that need a powerful automation foundation built from scratch. We design and implement tailor-made n8n workflows that perfectly match your unique processes.",
+          "deliverables": [
+            "A crystal-clear map of your new, efficient workflow",
+            "A scalable automation engine built for your future growth",
+            "Seamless integration with your entire tech stack, including custom APIs",
+            "Full documentation and team training for a confident handover"
+          ]
+        },
+        {
+          "title": "Zapier & Make Migration",
+          "description": "Escape the high costs and limitations. We seamlessly migrate all your existing Zaps and Scenarios to a more powerful, scalable, and cost-effective n8n setup with zero downtime.",
+          "deliverables": [
+            "A clear audit showing exactly where you're losing money and time",
+            "A zero-downtime migration plan for a completely seamless switch",
+            "A clear projection of your monthly savings and long-term ROI",
+            "Enhanced workflows that outperform your old setup from day one"
+          ]
+        },
+        {
+          "title": "Managed n8n & Consulting",
+          "description": "Your dedicated, on-demand automation partner. We set up, host, and maintain your n8n instance, and provide ongoing strategic consulting to continuously optimize your operations.",
+          "deliverables": [
+            "Peace of mind with secure, fully-managed n8n hosting and maintenance",
+            "An expert partner, always on-call to optimize your operations",
+            "Proactive 24/7 monitoring and detailed performance reports",
+            "A long-term strategic partnership focused on your success"
+          ]
+        }
+      ],
+      "popularBadge": "Popular",
+      "deliverablesTitle": "What You Get:",
+      "bottomSection": {
+        "title": "Every Great Foundation Starts with a Blueprint.",
+        "description": "Our initial strategy call is designed to give you clarity. We'll help you identify the right path forward, whether you're starting from scratch, migrating from another platform, or looking for an expert partner."
+      }
+    }
+  },
+  "pricingPage": {
+    "hero": {
+      "title": "A Partnership in Your Growth, Not Just a Line on Your Invoice.",
+      "subtitle": "We believe in transparent, value-based pricing. Our solutions are priced as strategic investments designed to deliver a significant return, not as a commodity cost. You won't find hourly rates here—you'll find a clear path to ROI."
+    },
+    "philosophy": {
+      "title": "Our Pricing Is Built on Three Core Principles",
+      "subtitle": "These principles ensure you receive maximum value from every dollar invested in your automation foundation.",
+      "cards": [
+        {
+          "title": "No \"One-Size-Fits-All\" Packages",
+          "headline": "Custom Solutions, Custom Pricing",
+          "description": "Your business is unique. Your automation foundation should be too. Every project is scoped and priced based on its specific complexity, goals, and the value it will create for your business."
+        },
+        {
+          "title": "We Focus on Your ROI",
+          "headline": "Focus on Return on Investment (ROI)",
+          "description": "Our primary goal is to build systems that save you money, reduce errors, and free up your team's time. We structure our proposals to show you a clear path to a positive return on your investment."
+        },
+        {
+          "title": "100% Transparent Proposals",
+          "headline": "Full Transparency",
+          "description": "After our initial strategy call, you will receive a detailed, fixed-price proposal. There are no hidden fees or surprise charges. You'll know the full investment upfront."
+        }
+      ]
+    },
+    "guide": {
+      "title": "To Give You an Idea...",
+      "subtitle": "Here are typical starting points for our most common engagement types.",
+      "cards": [
+        {
+          "title": "Custom Workflow Projects",
+          "description": "For building new automation foundations from the ground up.",
+          "priceAnchor": "Projects typically start from $3,500"
+        },
+        {
+          "title": "Platform Migration Projects",
+          "description": "For seamlessly moving your existing workflows to a more powerful n8n setup.",
+          "priceAnchor": "Projects typically start from $2,500"
+        },
+        {
+          "title": "Managed Service Retainers",
+          "description": "For ongoing support, maintenance, and strategic optimization.",
+          "priceAnchor": "Monthly retainers start from $1,000"
+        }
+      ],
+      "disclaimer": "*These are typical starting points. Your final quote will be based on the detailed scope we develop together during our free strategy call."
+    },
+    "cta": {
+      "title": "Ready for a Custom Quote?",
+      "subtitle": "The first step is our complimentary 30-minute strategy call. We'll dive into your goals and provide you with a detailed, no-obligation proposal tailored to your exact needs.",
+      "button": "Book Your Free Strategy Call",
+      "value": "Get a detailed proposal and ROI analysis within 48 hours of our call.",
+      "left": {
+        "title": "What You'll Get from Our Call:",
+        "items": [
+          "A comprehensive audit of your current automation setup",
+          "Custom recommendations tailored to your business goals",
+          "A detailed proposal with clear ROI projections",
+          "Honest advice, whether we're the right fit or not"
+        ]
+      },
+      "right": {
+        "title": "Call Details:",
+        "items": [
+          "30 minutes via Google Meet or Zoom",
+          "Available Monday-Friday, 9 AM - 5 PM (Your Timezone - e.g., EST, GMT+3)",
+          "No sales pitch—just valuable, actionable insights",
+          "A detailed proposal delivered within 48 hours after our call"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,640 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "services": "Hizmetler",
+    "solutions": "Neden n8n",
+    "pricing": "Fiyatlar",
+    "caseStudies": "Vaka Çalışmaları",
+    "blog": "Blog",
+    "contact": "Görüşme Ayarla"
+  },
+  "hero": {
+    "badge": "🚀 Otomasyon & Harmonize",
+    "title": "Otomasyon için Fazla Ödemeyi Bırakın. Sınırsız İnşa Edin.",
+    "subtitle": "Biz FOUNRS'ız, kurucular ve operasyon yöneticileri için uzman n8n ajansı. Pahalı ve kısıtlayıcı Zapier/Make iş akışlarınızı güçlü, ölçeklenebilir ve uygun maliyetli otomasyon temelleriyle değiştiriyoruz.",
+    "primaryCta": "Ücretsiz Strateji Görüşmesi",
+    "secondaryCta": "n8n Hakkında Bilgi Al",
+    "socialProof": "HubSpot, Webflow, Airtable ve daha fazlasını kullanan ekipler tarafından güveniliyor."
+  },
+  "sections": {
+    "painPoints": {
+      "title": "İş süreçlerinizdeki sorunları çözüyoruz",
+      "subtitle": "Tekrarlayan görevler, manuel hatalar ve zaman kaybı işletmenizi yavaşlatıyor mu?",
+      "points": [
+        {
+          "title": "Manuel Süreçler",
+          "description": "Saatlerce süren tekrarlayan görevler ekibinizi yıpratıyor"
+        },
+        {
+          "title": "İnsan Hataları",
+          "description": "Veri girişi ve aktarım hatları maliyetli problemlere yol açıyor"
+        },
+        {
+          "title": "Zaman Kaybı",
+          "description": "Değer yaratmayan işler için harcanan zaman büyümeyi engelliyor"
+        },
+        {
+          "title": "Entegrasyon Eksikliği",
+          "description": "Farklı sistemler arasında kopuk iletişim verimsizlik yaratıyor"
+        }
+      ]
+    },
+    "problemSolution": {
+      "title": "\"No-Code\" Araçlarıyla Duvara Çarpmaktan Yorgun musunuz?",
+      "subtitle": "Çoğu işletme pahalı, kısıtlayıcı otomasyon platformlarında sıkışıp kalmıştır. Operasyonel temelinizi inşa etmenin daha iyi bir yolu var.",
+      "problemTitle": "Zapier Tuzağı",
+      "solutionTitle": "FOUNRS Temeli",
+      "problems": [
+        {
+          "title": "Tahmin edilemeyen şekilde artan yüksek aylık faturalar",
+          "description": "Görev limitleri büyüdükçe sizi pahalı planlara zorluyor"
+        },
+        {
+          "title": "Kısıtlayıcı görev limitleri",
+          "description": "İşletmenizin otomasyona en çok ihtiyaç duyduğu anda keyfi limitlere takılıyorsunuz"
+        },
+        {
+          "title": "Verileriniz üzerinde kontrol eksikliği",
+          "description": "İş mantığınız ve verileriniz üçüncü taraf sunucularından geçiyor"
+        },
+        {
+          "title": "Karmaşık, çok adımlı mantığı yönetememe",
+          "description": "Basit tetikleyiciler ve eylemler gerçek iş karmaşıklığını yönetemez"
+        }
+      ],
+      "solutions": [
+        {
+          "title": "Açık kaynak n8n ile öngörülebilir, daha düşük maliyetler",
+          "description": "Kendiniz barındırın veya yönetilen barındırma kullanın - her iki durumda da maliyetleri siz kontrol edersiniz"
+        },
+        {
+          "title": "Kendiniz barındırma seçenekleriyle tam veri gizliliği",
+          "description": "Hassas iş verilerini kendi altyapınızda tutun"
+        },
+        {
+          "title": "Özel mantık ve API'ler için sınırsız esneklik",
+          "description": "JavaScript ve özel fonksiyonlarla herhangi bir iş mantığını yönetin"
+        },
+        {
+          "title": "Sizinle birlikte büyüyen ölçeklenebilir sistem",
+          "description": "Keyfi limit yok - iş akışlarınızı işletmeniz büyüdükçe ölçeklendirin"
+        }
+      ],
+      "cta": "Tuzağı Kaçın - Ücretsiz Görüşmenizi Planlayın"
+    },
+    "whyFounrs": {
+      "badge": "Güvenebileceğiniz Uzmanlık",
+      "title": "Biz Sadece Kod Yazmıyoruz, Stratejik İnşa Ediyoruz.",
+      "description": "FOUNRS, inşaatçılar tarafından inşaatçılar için kuruldu. Esnek olmayan araçlarla duvara çarpmaktan kaynaklanan hayal kırıklığını bizzat yaşadık. Bu yüzden sadece 'uygulamaları bağlamıyoruz'—n8n'nin sınırsız gücünü kullanarak sağlam operasyonel temeller mimar ederiz. İşletmenizi kendi işimizmiş gibi ele alırız.",
+      "founder": {
+        "name": "Fatih Çetinkaya",
+        "title": "Kurucu & Baş n8n Mimarı"
+      },
+      "linkedinButton": "LinkedIn'de Bağlantı Kurun"
+    },
+    "logoWall": {
+      "title": "Modern Operasyonların Temel Taşları",
+      "subtitle": "Modern işletmeleri güçlendiren teknolojilerde uzmanız. Hangi araçları kullanırsanız kullanın, bunları sorunsuzca birbirine bağlayabiliriz.",
+      "bottomText": "Ve 50+ entegrasyon daha. API'si varsa bağlayabiliriz.",
+      "ctaButton": "Teknoloji Yığınınızı Tartışın"
+    },
+    "servicesSection": {
+      "title": "n8n Hizmetlerimiz",
+      "subtitle": "Özel iş akışı geliştirmeden tam Zapier geçişlerine kadar, stratejik n8n otomasyon ortağınızız.",
+      "services": [
+        {
+          "title": "İş Akışı Geliştirme",
+          "description": "Özel, sizin için yapılmış n8n iş akışı oluşturma",
+          "details": [
+            "İş süreci analizi ve haritalandırma",
+            "Özel n8n iş akışı geliştirme",
+            "Mevcut araçlarınızla entegrasyon",
+            "Test ve optimizasyon",
+            "Dokümantasyon ve devir"
+          ]
+        },
+        {
+          "title": "Zapier/Make Geçişi",
+          "description": "Mevcut tüm zap'lerinizi daha güçlü ve uygun maliyetli bir n8n kurulumuna sorunsuzca taşırız",
+          "details": [
+            "Mevcut otomasyonların tam denetimi",
+            "Geçiş stratejisi ve zaman çizelgesi",
+            "n8n yetenekleriyle geliştirilmiş iş akışları",
+            "Maliyet analizi ve tasarruf projeksiyonu",
+            "Sıfır kesinti geçişi"
+          ]
+        },
+        {
+          "title": "Yönetilen n8n & Danışmanlık",
+          "description": "n8n örneğinizi kurar, barındırır ve bakımını yaparız, adanmış otomasyon ortağınız olarak hareket ederiz",
+          "details": [
+            "Yönetilen n8n barındırma ve bakım",
+            "Devam eden iş akışı optimizasyonu",
+            "Stratejik otomasyon danışmanlığı",
+            "7/24 izleme ve destek",
+            "Düzenli performans raporları"
+          ]
+        }
+      ],
+      "learnMore": "Daha Fazla Bilgi",
+      "cta": {
+        "title": "Operasyonlarınızı Dönüştürmeye Hazır mısınız?",
+        "subtitle": "Hangi hizmetin otomasyon ihtiyaçlarınıza en uygun olduğuna birlikte karar verelim.",
+        "button": "Ücretsiz Strateji Görüşmenizi Planlayın"
+      }
+    },
+    "howItWorks": {
+      "title": "Operasyonel Özgürlüğünüze Ulaşma Yolunuz",
+      "subtitle": "İşletmenizi reaktif operasyonlardan proaktif otomasyon liderliğine dönüştüren stratejik 3 adımlı yaklaşım.",
+      "steps": [
+        {
+          "title": "Vizyonunuzu Haritalandırın",
+          "description": "Mevcut süreçlerinizi anlamanın ötesinde gelecek hedeflerinizi derinlemesine keşfettiğimiz strateji oturumuyla başlıyoruz. En yüksek etkiye sahip otomasyon fırsatlarını belirliyoruz.",
+          "details": [
+            "Stratejik vizyon hizalama",
+            "Yüksek etki fırsatı haritalandırma",
+            "Rekabet avantajı analizi",
+            "ROI projeksiyonu ve zaman çizelgesi"
+          ]
+        },
+        {
+          "title": "Temelinizi İnşa Edin",
+          "description": "Uzmanlarımız özel n8n iş akışlarınızı tasarlıyor ve inşa ediyor, işletmenizin kalbinde sağlam ve ölçeklenebilir bir otomasyon motoru yaratıyor.",
+          "details": [
+            "Kurumsal düzey mimari",
+            "Ölçeklenebilir iş akışı mühendisliği",
+            "Stratejik sistem entegrasyonu",
+            "Performans optimizasyonu"
+          ]
+        },
+        {
+          "title": "Ekibinizi Güçlendirin",
+          "description": "Tam test edilmiş bir sistem sunuyor, kapsamlı eğitim sağlıyor ve yatırımınızdan maksimum değeri elde etmenizi sağlamak için sürekli destek sunuyoruz.",
+          "details": [
+            "Tam sistem devri",
+            "Stratejik eğitim programları",
+            "Operasyonel mükemmellik dokümantasyonu",
+            "Uzun dönem başarı ortaklığı"
+          ]
+        }
+      ],
+      "cta": {
+        "subtitle": "Operasyonel özgürlüğünüzü kazanmaya hazır mısınız?",
+        "button": "Adım 1 ile Başlayın - Vizyonunuzu Haritalandırın"
+      }
+    },
+    "integrations": {
+      "title": "Güçlü Entegrasyonlar",
+      "subtitle": "Kullandığınız tüm araçları birbirine bağlıyoruz",
+      "additionalText": "Ve daha birçok platform ile entegrasyon desteği"
+    },
+    "pipelines": {
+      "title": "Otomasyon Pipeline'ları",
+      "subtitle": "İş akışlarınızı akıllı otomasyonlarla güçlendirin",
+      "badgeText": "Otomatik",
+      "examples": [
+        {
+          "title": "CRM Otomasyonu",
+          "description": "Lead'lerden müşteriye kadar tüm süreç otomatik"
+        },
+        {
+          "title": "Finansal Süreçler",
+          "description": "Fatura işlemlerinden raporlamaya kadar"
+        },
+        {
+          "title": "Müşteri Desteği",
+          "description": "WhatsApp ve chat botlarıyla 7/24 destek"
+        }
+      ]
+    },
+    "metrics": {
+      "title": "Sonuçlarla Konuşuyoruz",
+      "stats": [
+        {
+          "value": "80%",
+          "label": "Zaman Tasarrufu"
+        },
+        {
+          "value": "95%",
+          "label": "Hata Azalması"
+        },
+        {
+          "value": "300%",
+          "label": "ROI Artışı"
+        },
+        {
+          "value": "24/7",
+          "label": "Kesintisiz Çalışma"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Müşterilerimiz Ne Diyor?",
+      "items": [
+        {
+          "quote": "PRISMR ile operasyonel sürtünmeyi azalttık; ekip verimliliğimiz keskin biçimde arttı.",
+          "author": "Ahmet Yılmaz",
+          "company": "TechCorp",
+          "role": "Genel Müdür"
+        },
+        {
+          "quote": "Hata oranımız %95 azaldı, müşteri memnuniyetimiz arttı.",
+          "author": "Elif Kaya",
+          "company": "LogiFlow",
+          "role": "Operasyon Müdürü"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Sık Sorulan Sorular",
+      "items": [
+        {
+          "question": "Hangi araçları kullanıyorsunuz?",
+          "answer": "n8n, Zapier, Make, WhatsApp Cloud API, Google Workspace, HubSpot, Supabase ve daha birçok popüler aracı entegre ediyoruz."
+        },
+        {
+          "question": "Bakım ve destek sunuyor musunuz?",
+          "answer": "Evet, aylık bakım paketleri ve SLA seçeneklerimiz var. 7/24 teknik destek sağlıyoruz."
+        },
+        {
+          "question": "Proje süresi ne kadar?",
+          "answer": "Projenin karmaşıklığına göre 2-8 hafta arasında değişiyor. Keşif görüşmesinde detaylı timeline paylaşıyoruz."
+        },
+        {
+          "question": "Mevcut sistemlerimizle uyumlu mu?",
+          "answer": "Evet, mevcut sistemlerinizi bozmadan entegrasyon sağlıyoruz. API'ler üzerinden güvenli bağlantılar kuruyoruz."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Hemen Başlayalım",
+      "subtitle": "Ücretsiz keşif görüşmesi için bugün iletişime geçin",
+      "button": "Ücretsiz Görüşme"
+    },
+    "finalCta": {
+      "title": "Otomasyon Temelinizi İnşa etmeye Hazır mısınız?",
+      "subtitle": "Ücretsiz 30 dakikalık strateji görüşmesi planlayın. Mevcut kurulumunuzu analiz edeceğiz ve hiçbir yükümlülük olmadan hemen kullanabileceğiniz uygulanabilir içgörüler sunacağız.",
+      "benefits": [
+        {
+          "title": "Ücretsiz Analiz",
+          "description": "Mevcut otomasyon kurulumunuzu inceleyeceğiz ve fırsatları belirleyeceğiz"
+        },
+        {
+          "title": "Uygulanabilir İçgörüler",
+          "description": "Hemen uygulayabileceğiniz spesifik öneriler alın"
+        },
+        {
+          "title": "Hiçbir Yükümlülük Yok",
+          "description": "Basınç yok - sadece işletmeniz için değerli içgörüler"
+        }
+      ],
+      "button": "Ücretsiz Görüşmenizi Şimdi Planlayın",
+      "socialProof": "Operasyonlarını FOUNRS ile dönüştüren 50+ şirkete katılın",
+      "left": {
+        "title": "Görüşmenizde Bekleyebilecekleriniz:",
+        "items": [
+          "Mevcut süreçlerinize ve sorunlu noktalarınıza derinlemesine dalış",
+          "İşletmeniz için özel otomasyon önerileri",
+          "n8n'e geçişin maliyet-fayda analizi",
+          "Bizimle çalışsanız da çalışmasanız da net sonraki adımlar"
+        ]
+      },
+      "right": {
+        "title": "Görüşme Detayları:",
+        "items": [
+          "Google Meet veya Zoom üzerinden 30 dakika",
+          "Pazartesi-Cuma, 09:00 - 18:00 EST",
+          "Satış konuşması yok - sadece değerli içgörüler",
+          "İstenirse kayıt alınabilir"
+        ]
+      }
+    }
+  },
+  "pricing": {
+    "title": "Size Uygun Planı Seçin",
+    "subtitle": "Şeffaf fiyatlandırma, gizli maliyet yok",
+    "monthly": "Aylık",
+    "yearly": "Yıllık",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "description": "Hızlı başlangıç, temel entegrasyonlar",
+        "price": "2.500",
+        "currency": "₺",
+        "period": "/ay",
+        "features": [
+          "3 otomasyon pipeline'ı",
+          "Temel entegrasyonlar",
+          "Email desteği",
+          "Aylık rapor"
+        ]
+      },
+      "pro": {
+        "name": "Pro",
+        "description": "Büyüyen ekipler için ölçeklenebilir otomasyon",
+        "price": "7.500",
+        "currency": "₺",
+        "period": "/ay",
+        "features": [
+          "Sınırsız otomasyon",
+          "Gelişmiş entegrasyonlar",
+          "Öncelikli destek",
+          "Haftalık rapor",
+          "Özel eğitim"
+        ],
+        "popular": true
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "description": "Özel entegrasyon, SLA, güvenlik",
+        "price": "Özel",
+        "currency": "",
+        "period": "fiyat",
+        "features": [
+          "Özel geliştirme",
+          "SLA garantisi",
+          "Dedicated hesap yöneticisi",
+          "7/24 telefon desteği",
+          "Güvenlik audit"
+        ]
+      }
+    },
+    "addons": {
+      "title": "Ek Hizmetler",
+      "items": [
+        {
+          "name": "N8N Hosting",
+          "price": "500₺/ay"
+        },
+        {
+          "name": "Özel Entegrasyon",
+          "price": "3.000₺"
+        },
+        {
+          "name": "Eğitim Paketi",
+          "price": "1.500₺"
+        },
+        {
+          "name": "Bakım Paketi",
+          "price": "1.000₺/ay"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "title": "İletişime Geçin",
+    "subtitle": "Projelerinizi konuşmak için hemen iletişime geçin",
+    "form": {
+      "name": "Ad Soyad",
+      "email": "E-posta",
+      "company": "Şirket",
+      "useCase": "Kullanım Alanı",
+      "message": "Mesaj",
+      "submit": "Gönder",
+      "success": "Mesajınız başarıyla gönderildi!",
+      "error": "Bir hata oluştu. Lütfen tekrar deneyin."
+    },
+    "useCases": [
+      "CRM Otomasyonu",
+      "Finansal Süreçler",
+      "Müşteri Desteği",
+      "E-ticaret",
+      "Raporlama",
+      "Diğer"
+    ],
+    "whatsapp": "WhatsApp ile iletişim"
+  },
+  "caseStudiesPage": {
+    "hero": {
+      "subtitle": "Müşterilerimizin başarı hikayelerini keşfedin. Gerçek projelerden elde edilen sonuçlar ve deneyimler."
+    },
+    "grid": {
+      "emptyState": "Henüz vaka çalışması bulunmuyor.",
+      "challengeLabel": "Zorluk",
+      "resultsLabel": "Sonuçlar",
+      "moreResults": "sonuç daha...",
+      "readMore": "Detayları İncele"
+    }
+  },
+  "blogPage": {
+    "hero": {
+      "subtitle": "İş süreçleri otomasyonu, dijital dönüşüm ve verimlilik hakkında uzman görüşleri ve pratik rehberler."
+    },
+    "grid": {
+      "emptyState": "Henüz blog yazısı bulunmuyor.",
+      "readingTimeUnit": "dk"
+    }
+  },
+  "contactPage": {
+    "hero": {
+      "methods": {
+        "whatsapp": {
+          "title": "WhatsApp",
+          "description": "Hızlı iletişim",
+          "action": "WhatsApp ile yazın"
+        },
+        "email": {
+          "title": "E-posta",
+          "description": "Detaylı bilgi için",
+          "action": "E-posta gönder"
+        },
+        "phone": {
+          "title": "Telefon",
+          "description": "Doğrudan görüşme",
+          "action": "Arayın"
+        }
+      }
+    },
+    "form": {
+      "fields": {
+        "name": "Ad Soyad",
+        "email": "E-posta",
+        "company": "Şirket",
+        "useCase": "Kullanım Alanı",
+        "message": "Mesaj"
+      },
+      "placeholders": {
+        "name": "Ad Soyad",
+        "email": "ornek@sirket.com",
+        "company": "Şirket Adı",
+        "useCase": "Kullanım alanı seçin",
+        "message": "Projeniz hakkında detayları paylaşın..."
+      },
+      "submit": "Gönder",
+      "submitting": "Gönderiliyor...",
+      "privacyText": "Formunuzu göndererek gizlilik politikamızı kabul etmiş olursunuz."
+    }
+  },
+  "footer": {
+    "tagline": "Vizyoner şirketler için operasyonel temeller kuruyoruz.",
+    "navigate": "Gezin",
+    "company": {
+      "title": "Şirket",
+      "links": [
+        "Hakkımızda",
+        "Kariyer",
+        "İletişim"
+      ]
+    },
+    "services": {
+      "title": "Hizmetler",
+      "links": [
+        "Workflow Otomasyonu",
+        "CRM Entegrasyonu",
+        "Finansal Süreçler",
+        "Destek Botları"
+      ]
+    },
+    "resources": {
+      "title": "Kaynaklar",
+      "links": [
+        "Blog",
+        "Vaka Çalışmaları",
+        "Dokümantasyon",
+        "Yardım Merkezi"
+      ]
+    },
+    "legal": {
+      "title": "Yasal",
+      "links": [
+        "Gizlilik Politikası",
+        "Kullanım Şartları"
+      ]
+    },
+    "connect": "Bağlantı",
+    "social": {
+      "linkedin": "LinkedIn",
+      "twitter": "X (Twitter)",
+      "email": "hello@founrs.com"
+    },
+    "copyright": "© 2025 FOUNRS. Tüm hakları saklıdır."
+  },
+  "common": {
+    "readMore": "Devamını Oku",
+    "learnMore": "Daha Fazla Bilgi",
+    "getStarted": "Başlayın",
+    "contactUs": "İletişim",
+    "loading": "Yükleniyor...",
+    "error": "Bir hata oluştu",
+    "success": "Başarılı"
+  },
+  "servicesPage": {
+    "hero": {
+      "title": "n8n Hizmetlerimiz",
+      "subtitle": "Tam Zapier geçişlerinden özel geliştirilmiş operasyonel temellere kadar, stratejik otomasyon ortağınızız."
+    },
+    "grid": {
+      "services": [
+        {
+          "title": "Özel İş Akışı Geliştirme",
+          "description": "Sıfırdan güçlü bir otomasyon temeli ihtiyacı olan işletmeler için. Benzersiz süreçlerinize mükemmel şekilde uyacak özel n8n iş akışları tasarlar ve uygularız.",
+          "deliverables": [
+            "Yeni, verimli iş akışınızın kristal berraklığında haritası",
+            "Gelecekteki büyümeniz için ölçeklenebilir otomasyon motoru",
+            "Özel API'ler dahil tüm teknoloji yığınınızla sorunsuz entegrasyon",
+            "Güvenli devir için tam dokümantasyon ve ekip eğitimi"
+          ]
+        },
+        {
+          "title": "Zapier & Make Geçişi",
+          "description": "Yüksek maliyetleri ve sınırlamaları geride bırakın. Tüm mevcut Zap'lerinizi ve Senaryolarınızı sıfır kesinti ile daha güçlü, ölçeklenebilir ve uygun maliyetli n8n kurulumuna sorunsuzca taşırız.",
+          "deliverables": [
+            "Tam olarak nereden para ve zaman kaybettiğinizi gösteren net denetim",
+            "Tamamen sorunsuz geçiş için sıfır kesinti geçiş planı",
+            "Aylık tasarruflarınızın ve uzun vadeli ROI'nizin net projeksiyonu",
+            "İlk günden eski kurulumunuzu geride bırakan gelişmiş iş akışları"
+          ]
+        },
+        {
+          "title": "Yönetilen n8n & Danışmanlık",
+          "description": "Adanmış, isteğe bağlı otomasyon ortağınız. n8n örneğinizi kurar, barındırır ve bakımını yaparız, operasyonlarınızı sürekli optimize etmek için devam eden stratejik danışmanlık sağlarız.",
+          "deliverables": [
+            "Güvenli, tam yönetilen n8n barındırma ve bakım ile huzur",
+            "Operasyonlarınızı optimize etmek için her zaman hazır uzman ortak",
+            "Proaktif 7/24 izleme ve detaylı performans raporları",
+            "Başarınıza odaklanmış uzun vadeli stratejik ortaklık"
+          ]
+        }
+      ],
+      "popularBadge": "Popüler",
+      "deliverablesTitle": "Neler Elde Edeceksiniz:",
+      "bottomSection": {
+        "title": "Her Büyük Temel Bir Tasarımla Başlar.",
+        "description": "İlk strateji görüşmemiz size netlik sağlamak için tasarlandı. Sıfırdan başlıyor olun, başka bir platformdan geçiyor olun veya uzman bir ortak arıyor olun, doğru yolu belirlemenize yardımcı olacağız."
+      }
+    }
+  },
+  "pricingPage": {
+    "hero": {
+      "title": "Faturanıza Yazılan Bir Kalem Değil, Büyümenize Ortaklık.",
+      "subtitle": "Şeffaf ve değere dayalı fiyatlandırmaya inanıyoruz. Çözümlerimiz, emtia maliyeti olarak değil, anlamlı geri dönüş sağlayacak stratejik yatırımlar olarak fiyatlanır. Saatlik ücret yok—net bir ROI yolu var."
+    },
+    "philosophy": {
+      "title": "Fiyatlandırmamız Üç Temel İlkeye Dayanır",
+      "subtitle": "Bu ilkeler, otomasyon temeliniz için harcadığınız her birimden maksimum değer almanızı sağlar.",
+      "cards": [
+        {
+          "title": "Tek Tip Paket Yok",
+          "headline": "Özel Çözümler, Özel Fiyatlandırma",
+          "description": "İşletmeniz benzersizdir. Otomasyon temeliniz de öyle olmalı. Her proje; karmaşıklık, hedefler ve yaratacağı değer temel alınarak kapsamlanır ve fiyatlanır."
+        },
+        {
+          "title": "ROI'nize Odaklanırız",
+          "headline": "Yatırım Getirisine (ROI) Odaklanma",
+          "description": "Amacımız; maliyeti azaltan, hataları düşüren ve ekibinizin zamanını boşa çıkartan sistemler kurmaktır. Tekliflerimizi, pozitif yatırım getirisinin net bir yol haritasını sunacak şekilde yapılandırırız."
+        },
+        {
+          "title": "%100 Şeffaf Teklifler",
+          "headline": "Tam Şeffaflık",
+          "description": "İlk strateji görüşmemizin ardından detaylı ve sabit fiyatlı bir teklif alırsınız. Gizli ücret yok, sürpriz maliyet yok. Toplam yatırımı en baştan bilirsiniz."
+        }
+      ]
+    },
+    "guide": {
+      "title": "Fikir Vermesi İçin...",
+      "subtitle": "En sık çalıştığımız iş modelleri için tipik başlangıç noktaları.",
+      "cards": [
+        {
+          "title": "Özel Workflow Projeleri",
+          "description": "Sıfırdan yeni otomasyon temelleri kurmak için.",
+          "priceAnchor": "Projeler genellikle $3.500'dan başlar"
+        },
+        {
+          "title": "Platform Migrasyon Projeleri",
+          "description": "Mevcut iş akışlarınızı daha güçlü bir n8n kurulumuna sorunsuzca taşımak için.",
+          "priceAnchor": "Projeler genellikle $2.500'dan başlar"
+        },
+        {
+          "title": "Yönetilen Hizmet Anlaşmaları",
+          "description": "Sürekli destek, bakım ve stratejik iyileştirme için.",
+          "priceAnchor": "Aylık anlaşmalar genellikle $1.000'dan başlar"
+        }
+      ],
+      "disclaimer": "*Bunlar tipik başlangıç noktalarıdır. Nihai teklifiniz, ücretsiz strateji görüşmemizde birlikte oluşturacağımız detaylı kapsam üzerinden belirlenecektir."
+    },
+    "cta": {
+      "title": "Özel Bir Teklife Hazır mısınız?",
+      "subtitle": "İlk adım ücretsiz 30 dakikalık strateji görüşmemiz. Hedeflerinizi derinlemesine konuşup, ihtiyaçlarınıza tam uygun, bağlayıcı olmayan detaylı bir teklif sunuyoruz.",
+      "button": "Ücretsiz Strateji Görüşmesi Alın",
+      "value": "Görüşmemizden sonraki 48 saat içinde detaylı teklif ve ROI analizi sunarız.",
+      "left": {
+        "title": "Görüşmeden Elde Edecekleriniz:",
+        "items": [
+          "Mevcut otomasyon kurulumunuzun kapsamlı bir değerlendirmesi",
+          "İş hedeflerinize özel özelleştirilmiş öneriler",
+          "Net ROI projeksiyonlarıyla detaylı bir teklif",
+          "Uygun olup olmadığımız konusunda dürüst yönlendirme"
+        ]
+      },
+      "right": {
+        "title": "Görüşme Detayları:",
+        "items": [
+          "Google Meet veya Zoom üzerinden 30 dakika",
+          "Pazartesi–Cuma, 09:00–17:00 (Sizin Zaman Diliminiz - ör. GMT+3)",
+          "Satış konuşması yok—yalnızca değerli, uygulanabilir içgörüler",
+          "Görüşmeden sonra 48 saat içinde detaylı teklif"
+        ]
+      }
+    }
+  }
+}

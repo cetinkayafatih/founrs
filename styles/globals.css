@@ -1,0 +1,150 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Sora:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --font-inter: 'Inter', sans-serif;
+  --font-sora: 'Sora', sans-serif;
+}
+
+@layer base {
+  :root {
+    --background: 11 15 26; /* onyx */
+    --foreground: 229 231 235; /* gray-200 */
+    --card: 15 23 42; /* slate-900 */
+    --card-foreground: 229 231 235;
+    --popover: 15 23 42;
+    --popover-foreground: 229 231 235;
+    --primary: 79 140 255; /* electric-blue */
+    --primary-foreground: 255 255 255;
+    --secondary: 17 24 39; /* gray-900 */
+    --secondary-foreground: 229 231 235;
+    --muted: 17 24 39;
+    --muted-foreground: 156 163 175;
+    --accent: 124 58 237; /* royal-violet */
+    --accent-foreground: 255 255 255;
+    --destructive: 239 68 68;
+    --destructive-foreground: 255 255 255;
+    --border: 55 65 81;
+    --input: 55 65 81;
+    --ring: 79 140 255;
+    --radius: 1rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-feature-settings: 'rlig' 1, 'calt' 1;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-electric-blue to-royal-violet bg-clip-text text-transparent;
+  }
+  
+  .bg-gradient-primary {
+    @apply bg-gradient-to-r from-electric-blue to-royal-violet;
+  }
+  
+  .glass {
+    @apply bg-white/5 backdrop-blur-md border border-white/10;
+  }
+  
+  .container-padding {
+    @apply px-4 sm:px-6 lg:px-8;
+  }
+  
+  .section-padding {
+    @apply py-16 lg:py-24;
+  }
+}
+
+/* Prose styles for MDX content */
+@layer components {
+  .prose {
+    @apply text-gray-200 max-w-none;
+  }
+  
+  .prose h1,
+  .prose h2,
+  .prose h3,
+  .prose h4,
+  .prose h5,
+  .prose h6 {
+    @apply text-white font-display;
+  }
+  
+  .prose h1 {
+    @apply text-4xl font-bold mb-8;
+  }
+  
+  .prose h2 {
+    @apply text-3xl font-semibold mb-6 mt-12;
+  }
+  
+  .prose h3 {
+    @apply text-2xl font-semibold mb-4 mt-8;
+  }
+  
+  .prose p {
+    @apply mb-6 leading-relaxed;
+  }
+  
+  .prose ul,
+  .prose ol {
+    @apply mb-6 space-y-2;
+  }
+  
+  .prose li {
+    @apply leading-relaxed;
+  }
+  
+  .prose blockquote {
+    @apply border-l-4 border-electric-blue pl-6 italic text-gray-300 my-8;
+  }
+  
+  .prose code {
+    @apply bg-gray-800 text-mint px-2 py-1 rounded text-sm;
+  }
+  
+  .prose pre {
+    @apply bg-gray-900 border border-gray-700 rounded-lg p-4 overflow-x-auto;
+  }
+  
+  .prose pre code {
+    @apply bg-transparent p-0;
+  }
+  
+  .prose a {
+    @apply text-electric-blue hover:text-royal-violet transition-colors underline;
+  }
+  
+  .prose img {
+    @apply rounded-lg border border-gray-700;
+  }
+  
+  .prose table {
+    @apply w-full border-collapse border border-gray-700 rounded-lg overflow-hidden;
+  }
+  
+  .prose th,
+  .prose td {
+    @apply border border-gray-700 px-4 py-2;
+  }
+  
+  .prose th {
+    @apply bg-gray-800 font-semibold text-white;
+  }
+}
