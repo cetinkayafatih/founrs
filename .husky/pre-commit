@@ -1,0 +1,24 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# 90MB üzeri dosyaları commit etmeyi engelle
+MAX_BYTES=$((90 * 1024 * 1024))
+OVERSIZED=$(git diff --cached --name-only --diff-filter=AM | while read -r f; do
+  [ -f "$f" ] || continue
+  SIZE=$(wc -c <"$f")
+  if [ "$SIZE" -gt "$MAX_BYTES" ]; then
+    echo "$f ($(printf '%.2f' "$(echo "$SIZE / 1048576" | bc -l)") MB)"
+  fi
+done)
+
+if [ -n "$OVERSIZED" ]; then
+  echo "\n❌ Commit iptal: 90MB üzeri dosyalar sahnede:"
+  echo "$OVERSIZED"
+  echo "\nLütfen bu dosyaları .gitignore ile hariç tutun veya Git LFS kullanın."
+  exit 1
+fi
+
+# lint-staged çalıştır (varsa)
+if command -v npx >/dev/null 2>&1; then
+  npx --no -- lint-staged || exit 1
+fi
