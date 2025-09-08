@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0e0f12;
+  --fg: #edeff5;
+  --muted: #a6aebd;
+  --primary: #5b8cff;
+  --accent: #10b981;
+  --warning: #f59e0b;
+  --border: rgba(255, 255, 255, 0.08);
+  --container: 1200px;
+}
+
+@layer base {
+  * {
+    @apply border-border/20;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-feature-settings: 'rlig' 1, 'calt' 1;
+  }
+
+  /* Focus rings */
+  *:focus-visible {
+    @apply outline-none ring-2 ring-primary/50 ring-offset-2 ring-offset-bg;
+  }
+
+  /* Reduce motion */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  .blueprint-grid {
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.005) 1px,
+        transparent 1px
+      ),
+      linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0.005) 1px,
+        transparent 1px
+      );
+    background-size: 40px 40px;
+    animation: pulse-grid 40s ease-in-out infinite;
+  }
+
+  .header-blur {
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+  }
+
+  /* Safari/iOS fallback */
+  @supports not (backdrop-filter: blur(8px)) {
+    .header-blur {
+      @apply bg-bg/95;
+    }
+  }
+
+  .reveal {
+    @apply opacity-0 translate-y-6 transition-all duration-200 ease-out;
+  }
+
+  .reveal.visible {
+    @apply opacity-100 translate-y-0;
+  }
+
+  .draw-svg {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+  }
+
+  .draw-svg.animate {
+    animation: draw-line 800ms ease-out forwards;
+  }
+}
