@@ -1,9 +1,12 @@
 import Link from 'next/link'
+import { getTranslations, getLocale } from 'next-intl/server'
 
 import { Container } from '@/components/layout/Container'
 import { Button } from '@/components/ui/Button'
 
-export function Hero() {
+export async function Hero() {
+  const t = await getTranslations('home.hero')
+  const locale = await getLocale()
   return (
     <section className="min-h-screen flex items-center justify-center blueprint-grid relative overflow-hidden">
       {/* Background elements */}
@@ -49,20 +52,20 @@ export function Hero() {
       <Container>
         <div className="max-w-4xl mx-auto text-center relative z-10">
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-display font-bold mb-8">
-            We design the intelligent automation foundations that{' '}
-            <span className="text-primary">power your growth</span>
+            {t('subtitle')} {" "}
+            <span className="text-primary">{t('title')}</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-muted mb-12 max-w-3xl mx-auto">
-            Beyond simple zaps—robust, scalable n8n systems delivered in 7 days.
+            {t('description')}
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <Button size="lg" asChild>
-              <Link href="/book-call">Book a 15-min discovery</Link>
+              <Link href={`/${locale}/book-call`}>{t('cta')}</Link>
             </Button>
             <Button variant="outline" size="lg" asChild>
-              <Link href="/services">See a Blueprint sample</Link>
+              <Link href={`/${locale}/services`}>{t('ctaSecondary')}</Link>
             </Button>
           </div>
         </div>

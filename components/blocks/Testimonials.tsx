@@ -1,3 +1,4 @@
+import { getTranslations } from 'next-intl/server'
 import { Container } from '@/components/layout/Container'
 
 const testimonials = [
@@ -19,14 +20,13 @@ const testimonials = [
   },
 ]
 
-export function Testimonials() {
+export async function Testimonials() {
+  const t = await getTranslations('home.testimonials')
   return (
     <section className="py-20 bg-bg">
       <Container>
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-display font-bold mb-6">
-            Client Success Stories
-          </h2>
+          <h2 className="text-3xl md:text-4xl font-display font-bold mb-6">{t('title')}</h2>
           <p className="text-xl text-muted">
             Real results from real implementations
           </p>

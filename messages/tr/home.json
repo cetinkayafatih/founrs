@@ -1,9 +1,10 @@
 {
   "hero": {
-    "title": "Basit Zap'lerin Ötesinde",
-    "subtitle": "Büyümenizi güçlendiren akıllı otomasyon temelleri tasarlıyoruz",
-    "description": "Kurumsal mimarili, üretim hazır n8n sistemleri, 7 günde teslim",
+    "title": "büyümenizi güçlendirir",
+    "subtitle": "Büyümenizi güçlendiren akıllı otomasyon temellerini tasarlarız",
+    "description": "Basit zap'lerin ötesinde—sağlam, ölçeklenebilir n8n sistemleri 7 günde teslim.",
     "cta": "15 dakikalık keşif planla",
+    "ctaSecondary": "Blueprint örneğini gör",
     "trustSignal": "Güvenle otomasyon yapan 50+ işletmeye katılın"
   },
   "pillars": {
@@ -25,21 +26,13 @@
     }
   },
   "process": {
-    "title": "FOUNRS Yöntemi",
-    "subtitle": "Denetimden otomasyona 7 günde",
+    "title": "Sürecimiz",
+    "subtitle": "Keşiften canlıya 7 günde",
     "steps": {
-      "blueprint": {
-        "title": "Blueprint",
-        "description": "Mevcut süreçlerinizi denetler ve otomasyon mimarinizi tasarlarız"
-      },
-      "build": {
-        "title": "Temel İnşa", 
-        "description": "Kurumsal kalıplar ve izleme ile ana sistemler uygulanır"
-      },
-      "partnership": {
-        "title": "Stratejik Otomasyon Ortaklığı",
-        "description": "İşiniz geliştikçe sürekli optimizasyon ve ölçeklendirme"
-      }
+      "blueprint": { "title": "Keşif", "duration": "Gün 1-2", "description": "Süreç haritalama, paydaş görüşmeleri ve fırsat belirleme." },
+      "build": { "title": "7 Günde MVP", "duration": "Gün 3-7", "description": "Loglama, izleme ve hata yönetimi ile çekirdek iş akışları." },
+      "partnership": { "title": "Canlıya Alma", "duration": "Gün 8", "description": "Prod dağıtım, ekip eğitimi ve devir dokümanları." },
+      "opt": { "title": "Optimizasyon", "duration": "Gün 9-30", "description": "Performans izleme, iyileştirmeler ve sürekli gelişim." }
     }
   },
   "metrics": {

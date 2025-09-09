@@ -1,43 +1,37 @@
+import { getTranslations } from 'next-intl/server'
 import { Container } from '@/components/layout/Container'
 
 const steps = [
   {
-    title: 'Discovery',
-    duration: 'Day 1-2',
-    description:
-      'Process mapping, stakeholder interviews, and opportunity identification.',
+    titleKey: 'blueprint.title',
+    durationKey: 'blueprint.duration',
+    descriptionKey: 'blueprint.description',
   },
   {
-    title: '7-Day MVP',
-    duration: 'Day 3-7',
-    description:
-      'Core workflow implementation with logging, monitoring, and error handling.',
+    titleKey: 'build.title',
+    durationKey: 'build.duration',
+    descriptionKey: 'build.description',
   },
   {
-    title: 'Go-Live',
-    duration: 'Day 8',
-    description:
-      'Production deployment, team training, and handover documentation.',
+    titleKey: 'partnership.title',
+    durationKey: 'partnership.duration',
+    descriptionKey: 'partnership.description',
   },
   {
-    title: 'Optimization',
-    duration: 'Day 9-30',
-    description:
-      'Performance monitoring, refinements, and continuous improvement.',
+    titleKey: 'opt.title',
+    durationKey: 'opt.duration',
+    descriptionKey: 'opt.description',
   },
 ]
 
-export function ProcessTimeline() {
+export async function ProcessTimeline() {
+  const t = await getTranslations('home.process')
   return (
     <section className="py-20 bg-border/5">
       <Container>
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-display font-bold mb-6">
-            Our Process
-          </h2>
-          <p className="text-xl text-muted">
-            From discovery to deployment in 7 days
-          </p>
+          <h2 className="text-3xl md:text-4xl font-display font-bold mb-6">{t('title')}</h2>
+          <p className="text-xl text-muted">{t('subtitle')}</p>
         </div>
 
         <div className="relative max-w-4xl mx-auto">
@@ -67,11 +61,9 @@ export function ProcessTimeline() {
                     <span className="text-white font-bold">{index + 1}</span>
                   </div>
                 </div>
-                <h3 className="text-lg font-semibold mb-2">{step.title}</h3>
-                <p className="text-sm text-primary mb-3">{step.duration}</p>
-                <p className="text-sm text-muted leading-relaxed">
-                  {step.description}
-                </p>
+                <h3 className="text-lg font-semibold mb-2">{t(`steps.${step.titleKey}`)}</h3>
+                <p className="text-sm text-primary mb-3">{t(`steps.${step.durationKey}`)}</p>
+                <p className="text-sm text-muted leading-relaxed">{t(`steps.${step.descriptionKey}`)}</p>
               </div>
             ))}
           </div>

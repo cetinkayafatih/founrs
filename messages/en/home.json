@@ -1,9 +1,10 @@
 {
   "hero": {
-    "title": "Beyond Simple Zaps",
-    "subtitle": "We design the intelligent automation foundations that power your growth",
-    "description": "Production-ready n8n systems with enterprise architecture, delivered in 7 days",
+    "title": "power your growth",
+    "subtitle": "We design the intelligent automation foundations that",
+    "description": "Beyond simple zaps—robust, scalable n8n systems delivered in 7 days.",
     "cta": "Book a 15-min discovery",
+    "ctaSecondary": "See a Blueprint sample",
     "trustSignal": "Join 50+ businesses automating with confidence"
   },
   "pillars": {
@@ -25,21 +26,13 @@
     }
   },
   "process": {
-    "title": "The FOUNRS Method",
-    "subtitle": "From audit to automation in 7 days",
+    "title": "Our Process",
+    "subtitle": "From discovery to deployment in 7 days",
     "steps": {
-      "blueprint": {
-        "title": "Blueprint",
-        "description": "We audit your current processes and design your automation architecture"
-      },
-      "build": {
-        "title": "Foundational Build", 
-        "description": "Core systems implemented with enterprise patterns and monitoring"
-      },
-      "partnership": {
-        "title": "Strategic Automation Partnership",
-        "description": "Ongoing optimization and scaling as your business evolves"
-      }
+      "blueprint": { "title": "Discovery", "duration": "Day 1-2", "description": "Process mapping, stakeholder interviews, and opportunity identification." },
+      "build": { "title": "7-Day MVP", "duration": "Day 3-7", "description": "Core workflow implementation with logging, monitoring, and error handling." },
+      "partnership": { "title": "Go-Live", "duration": "Day 8", "description": "Production deployment, team training, and handover documentation." },
+      "opt": { "title": "Optimization", "duration": "Day 9-30", "description": "Performance monitoring, refinements, and continuous improvement." }
     }
   },
   "metrics": {
