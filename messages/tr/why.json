@@ -1,0 +1,69 @@
+{
+  "hero": {
+    "title": "Neden Zapier Yerine n8n?",
+    "subtitle": "Basit otomasyonlardan fazlasına ihtiyacınız olduğunda",
+    "description": "n8n size Zapier'ın basitçe karşılayamayacağı kurumsal seviye otomasyon sistemleri inşa etme gücü ve esnekliği verir."
+  },
+  "comparison": {
+    "title": "Farklı İhtiyaçlar İçin İnşa Edilmiş",
+    "zapier": {
+      "title": "Zapier",
+      "subtitle": "Basit otomasyonlar için harika",
+      "features": [
+        "Temel iş akışları için kolay kurulum",
+        "Önceden yapılmış uygulama bağlantıları",
+        "Bireysel kullanıcılar için iyi",
+        "Sınırlı özelleştirme seçenekleri"
+      ]
+    },
+    "n8n": {
+      "title": "n8n",
+      "subtitle": "Karmaşık sistemler için inşa edilmiş",
+      "features": [
+        "Sınırsız iş akışı karmaşıklığı",
+        "Özel mantık ve veri işleme", 
+        "Kendi hosting kontrolü ve güvenliği",
+        "Kurumsal seviye mimari"
+      ]
+    }
+  },
+  "advantages": {
+    "title": "n8n Avantajı",
+    "subtitle": "Kurumsal otomasyon için neden n8n'i seçtik",
+    "items": {
+      "control": {
+        "title": "Tam Kontrol",
+        "description": "Kendi hosting'i verilerinizin kendi altyapınızda kalması, güvenlik ve uyumluluk üzerinde tam kontrol demektir"
+      },
+      "flexibility": {
+        "title": "Sınırsız Esneklik", 
+        "description": "Sadece bulut çözümlerle imkansız olan özel düğümler, karmaşık mantık ve veri dönüşümleri"
+      },
+      "cost": {
+        "title": "Öngörülebilir Maliyetler",
+        "description": "İşlem başına fiyatlandırma yok, ölçeklendikçe otomasyon maliyetleriniz patlamaz"
+      },
+      "integration": {
+        "title": "Derin Entegrasyonlar",
+        "description": "Sadece önceden yapılmış bağlayıcılar değil—API'ler, veritabanları veya özel protokollerle herhangi bir sisteme bağlanın"
+      }
+    }
+  },
+  "useCases": {
+    "title": "n8n Ne Zaman Seçilir",
+    "subtitle": "Bu senaryolar için mükemmel",
+    "items": [
+      "Koşullu mantıklı karmaşık çok adımlı iş akışları",
+      "Veri işleme ve dönüştürme gereksinimleri",
+      "İç sistemler ve veritabanları ile entegrasyon",
+      "Veri işleme için uyumluluk ve güvenlik gereksinimleri",
+      "İşlem başına fiyatlandırmada maliyetli olacak yüksek hacimli operasyonlar",
+      "Standart şablonlara uymayan özel iş mantığı"
+    ]
+  },
+  "cta": {
+    "title": "Kurumsal otomasyonun kilidini açmaya hazır mısınız?",
+    "subtitle": "n8n'in karmaşık otomasyon zorluklarınızı nasıl çözebileceğini keşfedelim",
+    "cta": "Strateji Görüşmesi Planla"
+  }
+}

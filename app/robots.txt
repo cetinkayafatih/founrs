@@ -4,7 +4,14 @@ Allow: /
 # Sitemap
 Sitemap: https://founrs.com/sitemap.xml
 
-# Disallow admin/private areas (if any)
+# Allow all localized content
+Allow: /en/
+Allow: /tr/
+
+# Allow landing pages but optionally noindex until campaigns launch
+Allow: /l/
+
+# Disallow admin/private areas
 Disallow: /api/
 Disallow: /_next/
 Disallow: /admin/

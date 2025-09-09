@@ -1,0 +1,104 @@
+{
+  "smmm": {
+    "title": "SMMM Suite",
+    "subtitle": "Pre-Accounting Automation",
+    "features": {
+      "collect": {
+        "title": "Collect",
+        "description": "Automatically gather e-invoices, statements, and receipts from all sources"
+      },
+      "control": {
+        "title": "Control", 
+        "description": "Google Sheet approval queue with duplicate detection and field validation"
+      },
+      "track": {
+        "title": "Track",
+        "description": "Daily digest reports per customer with full audit trail"
+      }
+    },
+    "benefit": "Save 10–30 hours per week on pre-accounting tasks",
+    "pricing": {
+      "title": "Simple, Transparent Pricing",
+      "tiers": {
+        "lite": {
+          "name": "Lite",
+          "price": "$699",
+          "features": [
+            "Basic e-invoice collection",
+            "Simple approval workflow", 
+            "Weekly reports",
+            "Email support"
+          ]
+        },
+        "core": {
+          "name": "Core",
+          "price": "$1,900", 
+          "popular": "Most Popular",
+          "features": [
+            "Full e-invoice collection",
+            "Advanced approval queue",
+            "Duplicate detection",
+            "Daily digest reports", 
+            "Priority support",
+            "Custom fields"
+          ]
+        },
+        "pro": {
+          "name": "Pro",
+          "price": "$4,500",
+          "features": [
+            "Everything in Core",
+            "Multi-company support",
+            "Advanced analytics", 
+            "API integrations",
+            "Custom workflows",
+            "Dedicated support"
+          ]
+        }
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions", 
+      "items": {
+        "implementation": {
+          "question": "How long does implementation take?",
+          "answer": "7 days for standard setup. We handle all configuration and testing."
+        },
+        "included": {
+          "question": "What's included in the setup?",
+          "answer": "Complete system configuration, data migration, team training, and 30 days of support."
+        },
+        "security": {
+          "question": "Is my data secure and KVKK compliant?",
+          "answer": "Yes, the system is installed in your account with limited, logged access. Full KVKK compliance included."
+        },
+        "upgrade": {
+          "question": "Can I upgrade my plan later?", 
+          "answer": "Absolutely. Blueprint/Build credits apply to upgrades within 30 days."
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to automate your pre-accounting?",
+      "subtitle": "See exactly how it works for your business in 2 minutes",
+      "button": "Prepare my free demo →",
+      "mobile": "Prepare my free 2-min demo →"
+    },
+    "modal": {
+      "title": "Request Demo",
+      "fields": {
+        "name": "Name",
+        "email": "Email", 
+        "company": "Company"
+      },
+      "placeholders": {
+        "name": "John Doe",
+        "email": "john@company.com",
+        "company": "Acme Corp"
+      },
+      "submit": "Request Demo",
+      "sending": "Sending...",
+      "success": "Demo request sent! We'll contact you within 24 hours."
+    }
+  }
+}

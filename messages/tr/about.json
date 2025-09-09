@@ -1,0 +1,34 @@
+{
+  "hero": {
+    "title": "FOUNRS Hakkında",
+    "subtitle": "Modern kurumlar için otomasyon mimarları",
+    "description": "Sadece başka bir otomasyon ajansı değiliz. İşinizle ölçeklenen kurumsal seviye otomasyon temelleri inşa etme konusunda uzmanlaşmış sistem mimarlarıyız."
+  },
+  "story": {
+    "title": "Hikayemiz",
+    "content": "Deneyimli sistem mimarları ve otomasyon uzmanları tarafından kurulan FOUNRS, basit iş akışı araçları ile kurumsal otomasyon ihtiyaçları arasındaki boşluğu kapatmak için yaratıldı. Çok fazla işletmenin ölçekte kırılan kırılgan otomasyonlarla mücadele ettiğini gördük."
+  },
+  "approach": {
+    "title": "Yaklaşımımız",
+    "subtitle": "Mimari-öncelikli otomasyon",
+    "principles": [
+      {
+        "title": "Sistem Düşüncesi",
+        "description": "Otomasyona bireysel iş akışları değil, sistem mimarisi olarak yaklaşırız"
+      },
+      {
+        "title": "Önce Üretim", 
+        "description": "Her çözüm birinci günden izleme, hata yönetimi ve ölçeklenebilirlikle inşa edilir"
+      },
+      {
+        "title": "Uzun vadeli Ortaklık",
+        "description": "Sadece proje tamamlama değil, uzun vadeli başarınıza yatırım yapıyoruz"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Otomasyon uzmanları ile çalışmaya hazır mısınız?",
+    "subtitle": "Otomasyon temeli nasıl kurabileceğimizi konuşalım",
+    "cta": "Konuşmayı Başlat"
+  }
+}

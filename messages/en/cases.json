@@ -1,0 +1,12 @@
+{
+  "hero": {
+    "title": "Client Success Stories",
+    "subtitle": "Real automation transformations", 
+    "description": "See how our clients have transformed their operations with enterprise n8n systems."
+  },
+  "cta": {
+    "title": "Ready to transform your operations?",
+    "subtitle": "Let's discuss how we can create similar results for your business",
+    "cta": "Schedule Strategy Call"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "hero": {
+    "title": "n8n Sistemler & Mimari", 
+    "subtitle": "Ölçek için tasarlanmış kurumsal otomasyon çözümleri",
+    "description": "Sadece iş akışları değil—uygun mimari, izleme ve kurumsal kalıplarla üretim hazır n8n sistemleri inşa ediyoruz."
+  },
+  "offerings": {
+    "title": "Hizmetlerimiz",
+    "subtitle": "Denetimden sürekli optimizasyona tam otomasyon çözümleri",
+    "blueprint": {
+      "title": "Blueprint",
+      "price": "2.500$'dan başlayarak",
+      "description": "Tam süreç denetimi ve otomasyon mimarisi tasarımı",
+      "features": [
+        "Mevcut süreç analizi ve darboğaz tanımlama",
+        "Özel otomasyon mimarisi tasarımı",
+        "Entegrasyon haritalaması ve veri akış dokümantasyonu",
+        "ROI projeksiyonları ve uygulama yol haritası",
+        "Teknik gereksinimler ve altyapı planlaması"
+      ]
+    },
+    "build": {
+      "title": "Temel İnşa",
+      "price": "7.500$'dan başlayarak", 
+      "description": "Üretim hazır n8n sistem uygulaması",
+      "features": [
+        "Blueprint'teki her şey",
+        "Kurumsal n8n kurulum ve konfigürasyonu",
+        "Hata yönetimli ana otomasyon iş akışları",
+        "Entegrasyon geliştirme ve test",
+        "İzleme, loglama ve uyarı sistemleri",
+        "Dokümantasyon ve takım eğitimi",
+        "30 günlük optimizasyon ve destek süresi"
+      ]
+    },
+    "partnership": {
+      "title": "Stratejik Otomasyon Ortaklığı",
+      "price": "2.500$/ay'dan başlayarak",
+      "description": "Sürekli optimizasyon ve ölçeklendirme desteği", 
+      "features": [
+        "Aylık sistem optimizasyonu ve performans ayarı",
+        "Yeni iş akışı geliştirme ve entegrasyon",
+        "Proaktif izleme ve sorun çözümü",
+        "Stratejik otomasyon planlaması ve yol haritası",
+        "Öncelikli destek ve danışmanlık erişimi"
+      ]
+    }
+  },
+  "approach": {
+    "title": "Yaklaşımımız",
+    "subtitle": "Kurumsal kalıplar, üretim güvenilirliği",
+    "items": {
+      "architecture": {
+        "title": "Mimari-Öncelikli Tasarım",
+        "description": "Bireysel iş akışları değil, uygun sistem mimarisi ile başlarız"
+      },
+      "reliability": {
+        "title": "Üretim Güvenilirliği",
+        "description": "Birinci günden yerleşik hata yönetimi, izleme ve güvenlik önlemleri"
+      },
+      "scalability": {
+        "title": "Ölçeklenmeye Göre İnşa", 
+        "description": "İşinizle büyüyecek ve artan yükü kaldıracak şekilde tasarlanmış sistemler"
+      },
+      "integration": {
+        "title": "Derin Entegrasyonlar",
+        "description": "Araçlarınız sadece bağlı değil, sorunsuz çalışır"
+      }
+    }
+  },
+  "cta": {
+    "title": "Kurumsal ölçekte otomasyon yapmaya hazır mısınız?",
+    "subtitle": "Otomasyon ihtiyaçlarınızı konuşalım ve sizinle büyüyen bir çözüm tasarlayalım",
+    "cta": "Danışmanlık Planla"
+  }
+}

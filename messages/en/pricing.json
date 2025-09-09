@@ -1,0 +1,78 @@
+{
+  "hero": {
+    "title": "Transparent Pricing",
+    "subtitle": "Investment in your automation future",
+    "description": "Fixed-scope projects with clear deliverables. No hourly billing, no surprise costs."
+  },
+  "packages": {
+    "title": "Choose Your Path",
+    "subtitle": "From strategy to full implementation",
+    "blueprint": {
+      "name": "Blueprint", 
+      "price": "$2,500",
+      "duration": "2 weeks",
+      "description": "Perfect for planning your automation strategy",
+      "features": [
+        "Complete process audit",
+        "Custom automation architecture",
+        "ROI projections",
+        "Implementation roadmap"
+      ],
+      "ideal": "Ideal for: Strategic planning phase"
+    },
+    "build": {
+      "name": "Foundational Build",
+      "price": "$7,500", 
+      "duration": "4 weeks",
+      "description": "Complete n8n system implementation",
+      "features": [
+        "Everything in Blueprint",
+        "Production n8n setup",
+        "Core workflow implementation",
+        "Monitoring & error handling",
+        "Team training & documentation"
+      ],
+      "ideal": "Ideal for: Ready to implement"
+    },
+    "partnership": {
+      "name": "Strategic Partnership", 
+      "price": "$2,500",
+      "duration": "per month",
+      "description": "Ongoing optimization and growth", 
+      "features": [
+        "Monthly optimization",
+        "New workflow development", 
+        "Proactive monitoring",
+        "Strategic planning",
+        "Priority support"
+      ],
+      "ideal": "Ideal for: Long-term growth"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": {
+      "timeline": {
+        "question": "How long does implementation take?",
+        "answer": "Blueprint: 2 weeks. Foundational Build: 4 weeks. We work in parallel with your team to minimize disruption."
+      },
+      "included": {
+        "question": "What's included in the setup?", 
+        "answer": "Complete system setup, workflow development, testing, team training, and 30 days of optimization support."
+      },
+      "hosting": {
+        "question": "Do you provide hosting?",
+        "answer": "We can set up n8n on your infrastructure (recommended) or provide managed hosting solutions."
+      },
+      "support": {
+        "question": "What ongoing support is available?",
+        "answer": "All projects include 30 days of optimization support. Strategic Partnership provides ongoing support and development."
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready to invest in automation?",
+    "subtitle": "Book a call to discuss your needs and get a custom proposal", 
+    "cta": "Get Custom Proposal"
+  }
+}

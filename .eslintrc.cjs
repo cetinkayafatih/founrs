@@ -7,8 +7,8 @@ const config = {
   plugins: ['@typescript-eslint', 'import'],
   extends: [
     'next/core-web-vitals',
-    '@typescript-eslint/recommended-type-checked',
-    '@typescript-eslint/stylistic-type-checked',
+    'plugin:@typescript-eslint/recommended-type-checked',
+    'plugin:@typescript-eslint/stylistic-type-checked',
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:jsx-a11y/recommended',

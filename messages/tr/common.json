@@ -1,0 +1,23 @@
+{
+  "brand": "FOUNRS",
+  "tagline": "AI Sistemler & Operasyonlar",
+  "nav": {
+    "home": "Ana Sayfa",
+    "services": "Hizmetler", 
+    "why": "Neden n8n",
+    "cases": "Vaka Çalışmaları",
+    "pricing": "Fiyatlandırma",
+    "about": "Hakkında"
+  },
+  "cta": {
+    "bookCall": "Görüşme Planla",
+    "getStarted": "Başlayın",
+    "learnMore": "Daha Fazla Bilgi",
+    "requestDemo": "Demo Talep Et",
+    "viewCases": "Vaka Çalışmalarını Görüntüle"
+  },
+  "lang": {
+    "en": "EN",
+    "tr": "TR"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "hero": {
+    "title": "Keşif Görüşmenizi Planlayın",
+    "subtitle": "Otomasyon potansiyelinizi keşfetmek için 15 dakika", 
+    "description": "Mevcut süreçlerinizi konuşalım ve n8n otomasyonunun operasyonlarınızı nasıl dönüştürebileceğini keşfedelim."
+  },
+  "form": {
+    "title": "Görüşmenizi Planlayın",
+    "fields": {
+      "name": "Ad Soyad",
+      "email": "E-posta Adresi",
+      "company": "Şirket Adı", 
+      "role": "Rolünüz",
+      "challenge": "En Büyük Süreç Zorluğu",
+      "timeline": "Uygulama Zaman Çizelgesi"
+    },
+    "placeholders": {
+      "name": "Ahmet Yılmaz",
+      "email": "ahmet@sirket.com",
+      "company": "Acme Corp",
+      "role": "Operasyon Müdürü",
+      "challenge": "Manuel veri girişi haftada 10 saat alıyor",
+      "timeline": "Önümüzdeki 2-3 ay"
+    },
+    "submit": "Keşif Görüşmesi Planla"
+  },
+  "what": {
+    "title": "Ne Bekleyebilirsiniz",
+    "items": [
+      "Süreç incelemesi ve darboğaz tanımlama",
+      "Otomasyon fırsatları değerlendirmesi", 
+      "İhtiyaçlarınıza uygun n8n çözüm genel bakışı",
+      "Sonraki adımlar ve zaman çizelgesi tartışması"
+    ]
+  },
+  "cta": {
+    "title": "Operasyonlarınızı otomatikleştirmeye hazır mısınız?",
+    "subtitle": "Şimdi görüşmenizi planlayın ve otomasyon yolculuğunuzu başlatın",
+    "cta": "Görüşme Planla"
+  }
+}

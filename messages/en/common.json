@@ -1,0 +1,23 @@
+{
+  "brand": "FOUNRS",
+  "tagline": "AI Systems & Ops",
+  "nav": {
+    "home": "Home",
+    "services": "Services", 
+    "why": "Why n8n",
+    "cases": "Case Studies",
+    "pricing": "Pricing",
+    "about": "About"
+  },
+  "cta": {
+    "bookCall": "Book Call",
+    "getStarted": "Get Started",
+    "learnMore": "Learn More",
+    "requestDemo": "Request Demo",
+    "viewCases": "View Case Studies"
+  },
+  "lang": {
+    "en": "EN",
+    "tr": "TR"
+  }
+}

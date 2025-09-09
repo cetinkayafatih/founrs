@@ -1,0 +1,78 @@
+{
+  "hero": {
+    "title": "Şeffaf Fiyatlandırma",
+    "subtitle": "Otomasyon geleceğinize yatırım",
+    "description": "Net çıktılar ile sabit kapsamlı projeler. Saatlik faturalandırma yok, sürpriz maliyet yok."
+  },
+  "packages": {
+    "title": "Yolunuzu Seçin",
+    "subtitle": "Stratejiden tam uygulamaya",
+    "blueprint": {
+      "name": "Blueprint", 
+      "price": "2.500$",
+      "duration": "2 hafta",
+      "description": "Otomasyon stratejinizi planlamak için mükemmel",
+      "features": [
+        "Tam süreç denetimi",
+        "Özel otomasyon mimarisi",
+        "ROI projeksiyonları",
+        "Uygulama yol haritası"
+      ],
+      "ideal": "İdeal: Stratejik planlama aşaması"
+    },
+    "build": {
+      "name": "Temel İnşa",
+      "price": "7.500$", 
+      "duration": "4 hafta",
+      "description": "Tam n8n sistem uygulaması",
+      "features": [
+        "Blueprint'teki her şey",
+        "Üretim n8n kurulumu",
+        "Ana iş akışı uygulaması",
+        "İzleme ve hata yönetimi",
+        "Takım eğitimi ve dokümantasyon"
+      ],
+      "ideal": "İdeal: Uygulamaya hazır"
+    },
+    "partnership": {
+      "name": "Stratejik Ortaklık", 
+      "price": "2.500$",
+      "duration": "aylık",
+      "description": "Sürekli optimizasyon ve büyüme", 
+      "features": [
+        "Aylık optimizasyon",
+        "Yeni iş akışı geliştirme", 
+        "Proaktif izleme",
+        "Stratejik planlama",
+        "Öncelikli destek"
+      ],
+      "ideal": "İdeal: Uzun vadeli büyüme"
+    }
+  },
+  "faq": {
+    "title": "Sıkça Sorulan Sorular",
+    "items": {
+      "timeline": {
+        "question": "Uygulama ne kadar sürer?",
+        "answer": "Blueprint: 2 hafta. Temel İnşa: 4 hafta. Kesintileri minimize etmek için takımınızla paralel çalışırız."
+      },
+      "included": {
+        "question": "Kurulumda neler dahil?", 
+        "answer": "Tam sistem kurulumu, iş akışı geliştirme, test, takım eğitimi ve 30 gün optimizasyon desteği."
+      },
+      "hosting": {
+        "question": "Hosting sağlıyor musunuz?",
+        "answer": "n8n'i kendi altyapınızda (önerilen) kurabiliriz veya yönetilen hosting çözümleri sağlayabiliriz."
+      },
+      "support": {
+        "question": "Ne tür sürekli destek var?",
+        "answer": "Tüm projeler 30 gün optimizasyon desteği içerir. Stratejik Ortaklık sürekli destek ve geliştirme sağlar."
+      }
+    }
+  },
+  "cta": {
+    "title": "Otomasyona yatırım yapmaya hazır mısınız?",
+    "subtitle": "İhtiyaçlarınızı konuşmak ve özel bir teklif almak için bir görüşme planlayın", 
+    "cta": "Özel Teklif Al"
+  }
+}

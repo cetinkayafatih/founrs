@@ -1,13 +1,13 @@
 'use client'
 
-import { useState } from 'react'
 import type { Metadata } from 'next'
+import { useState } from 'react'
 import { z } from 'zod'
 
-import { Button } from '@/components/ui/Button'
 import { Container } from '@/components/layout/Container'
 import { SiteFooter } from '@/components/site/SiteFooter'
 import { SiteHeader } from '@/components/site/SiteHeader'
+import { Button } from '@/components/ui/Button'
 
 const formSchema = z.object({
   name: z.string().min(2, 'Name must be at least 2 characters'),
@@ -63,7 +63,9 @@ export default function BookCallPage() {
         const fieldErrors: Partial<FormData> = {}
         error.errors.forEach((err) => {
           const path = err.path[0] as keyof FormData
-          fieldErrors[path] = err.message
+          if (typeof fieldErrors[path] === 'undefined') {
+            (fieldErrors as any)[path] = err.message
+          }
         })
         setErrors(fieldErrors)
       }

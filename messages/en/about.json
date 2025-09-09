@@ -1,0 +1,34 @@
+{
+  "hero": {
+    "title": "About FOUNRS",
+    "subtitle": "Automation architects for the modern enterprise",
+    "description": "We're not just another automation agency. We're system architects who specialize in building enterprise-grade automation foundations that scale with your business."
+  },
+  "story": {
+    "title": "Our Story",
+    "content": "Founded by experienced system architects and automation specialists, FOUNRS was created to bridge the gap between simple workflow tools and enterprise automation needs. We've seen too many businesses struggle with fragile automations that break at scale."
+  },
+  "approach": {
+    "title": "Our Approach",
+    "subtitle": "Architecture-first automation",
+    "principles": [
+      {
+        "title": "Systems Thinking",
+        "description": "We approach automation as system architecture, not individual workflows"
+      },
+      {
+        "title": "Production First", 
+        "description": "Every solution is built with monitoring, error handling, and scalability from day one"
+      },
+      {
+        "title": "Long-term Partnership",
+        "description": "We're invested in your long-term success, not just project completion"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to work with automation experts?",
+    "subtitle": "Let's discuss how we can build your automation foundation",
+    "cta": "Start Conversation"
+  }
+}

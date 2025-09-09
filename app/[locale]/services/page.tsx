@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 
-import { Button } from '@/components/ui/Button'
 import { Container } from '@/components/layout/Container'
 import { SiteFooter } from '@/components/site/SiteFooter'
 import { SiteHeader } from '@/components/site/SiteHeader'
+import { Button } from '@/components/ui/Button'
 
 export const metadata: Metadata = {
   title: 'Services',

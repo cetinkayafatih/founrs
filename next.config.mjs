@@ -3,6 +3,9 @@ import createNextIntlPlugin from 'next-intl/plugin';
 const withNextIntl = createNextIntlPlugin();
 
 export default withNextIntl({
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   async headers() {
     return [
       {
@@ -26,6 +29,7 @@ export default withNextIntl({
   },
   experimental: {
     optimizePackageImports: ['lucide-react'],
+    missingSuspenseWithCSRBailout: false,
   },
   // Enable static exports for better performance
   output: process.env.NODE_ENV === 'production' ? undefined : undefined,

@@ -1,0 +1,75 @@
+{
+  "hero": {
+    "title": "n8n Systems & Architecture", 
+    "subtitle": "Enterprise automation solutions designed for scale",
+    "description": "We build production-ready n8n systems with proper architecture, monitoring, and enterprise patterns—not just workflows."
+  },
+  "offerings": {
+    "title": "Our Services",
+    "subtitle": "Complete automation solutions from audit to ongoing optimization",
+    "blueprint": {
+      "title": "Blueprint",
+      "price": "Starting at $2,500",
+      "description": "Complete process audit and automation architecture design",
+      "features": [
+        "Current process analysis & bottleneck identification",
+        "Custom automation architecture design",
+        "Integration mapping & data flow documentation",
+        "ROI projections & implementation roadmap",
+        "Technical requirements & infrastructure planning"
+      ]
+    },
+    "build": {
+      "title": "Foundational Build",
+      "price": "Starting at $7,500", 
+      "description": "Production-ready n8n system implementation",
+      "features": [
+        "Enterprise n8n instance setup & configuration",
+        "Core automation workflows with error handling",
+        "Integration development & testing",
+        "Monitoring, logging & alerting systems",
+        "Documentation & team training",
+        "30-day optimization & support period"
+      ]
+    },
+    "partnership": {
+      "title": "Strategic Automation Partnership",
+      "price": "Starting at $2,500/month",
+      "description": "Ongoing optimization and scaling support", 
+      "features": [
+        "Monthly system optimization & performance tuning",
+        "New workflow development & integration",
+        "Proactive monitoring & issue resolution",
+        "Strategic automation planning & roadmap",
+        "Priority support & consulting access"
+      ]
+    }
+  },
+  "approach": {
+    "title": "Our Approach",
+    "subtitle": "Enterprise patterns, production reliability",
+    "items": {
+      "architecture": {
+        "title": "Architecture-First Design",
+        "description": "We start with proper system architecture, not individual workflows"
+      },
+      "reliability": {
+        "title": "Production Reliability",
+        "description": "Built-in error handling, monitoring, and fail-safes from day one"
+      },
+      "scalability": {
+        "title": "Built to Scale", 
+        "description": "Systems designed to grow with your business and handle increased load"
+      },
+      "integration": {
+        "title": "Deep Integrations",
+        "description": "Your tools work together seamlessly, not just connected"
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready to automate at enterprise scale?",
+    "subtitle": "Let's discuss your automation needs and design a solution that grows with you",
+    "cta": "Schedule Consultation"
+  }
+}

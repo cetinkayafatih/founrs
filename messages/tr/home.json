@@ -1,0 +1,77 @@
+{
+  "hero": {
+    "title": "Basit Zap'lerin Ötesinde",
+    "subtitle": "Büyümenizi güçlendiren akıllı otomasyon temelleri tasarlıyoruz",
+    "description": "Kurumsal mimarili, üretim hazır n8n sistemleri, 7 günde teslim",
+    "cta": "15 dakikalık keşif planla",
+    "trustSignal": "Güvenle otomasyon yapan 50+ işletmeye katılın"
+  },
+  "pillars": {
+    "title": "Farklı Yapılmış",
+    "subtitle": "İş akışı araçlarından fazlası—tam otomasyon mimarisi",
+    "items": {
+      "architecture": {
+        "title": "Sistem Mimarisi",
+        "description": "Kurumsal seviye tasarım kalıpları, kırılgan iş akışı zincirleri değil"
+      },
+      "reliability": {
+        "title": "Üretim Güvenilirliği", 
+        "description": "Birinci günden yerleşik hata yönetimi, izleme ve güvenlik önlemleri"
+      },
+      "integration": {
+        "title": "Derin Entegrasyon",
+        "description": "Mevcut araçlarınız sadece bağlı değil, sorunsuz çalışır"
+      }
+    }
+  },
+  "process": {
+    "title": "FOUNRS Yöntemi",
+    "subtitle": "Denetimden otomasyona 7 günde",
+    "steps": {
+      "blueprint": {
+        "title": "Blueprint",
+        "description": "Mevcut süreçlerinizi denetler ve otomasyon mimarinizi tasarlarız"
+      },
+      "build": {
+        "title": "Temel İnşa", 
+        "description": "Kurumsal kalıplar ve izleme ile ana sistemler uygulanır"
+      },
+      "partnership": {
+        "title": "Stratejik Otomasyon Ortaklığı",
+        "description": "İşiniz geliştikçe sürekli optimizasyon ve ölçeklendirme"
+      }
+    }
+  },
+  "metrics": {
+    "title": "Gerçek Etki",
+    "subtitle": "Birinci günden ölçülebilir sonuçlar",
+    "items": {
+      "timeSaved": {
+        "label": "Zaman Tasarrufu",
+        "footnote": "Tüm müşteriler ortalaması",
+        "tooltip": "50+ müşteri uygulaması analizine dayalı. Tasarruf edilen zaman manuel veri girişi, doğrulama ve rapor oluşturmayı içerir."
+      },
+      "errorReduction": {
+        "label": "Hata Azalması", 
+        "footnote": "Tipik aralık %30-60",
+        "tooltip": "Otomasyon ile veri giriş hataları, mükerrer işlem ve manuel doğrulama hatalarında azalma."
+      },
+      "payback": {
+        "label": "Geri Ödeme Süresi",
+        "footnote": "Zaman tasarrufuna dayalı", 
+        "tooltip": "Operasyonel verimlilik kazanımları ve azalan manuel iş ile uygulama yatırımını geri alma ortalama süresi."
+      }
+    }
+  },
+  "logos": {
+    "title": "İlerici düşünen takımların güvendiği"
+  },
+  "testimonials": {
+    "title": "Müşteri Başarı Hikayeleri"
+  },
+  "finalCta": {
+    "title": "Otomasyon temeli kurmaya hazır mısınız?",
+    "subtitle": "Otomasyon potansiyelinizi keşfetmek için 15 dakikalık bir keşif görüşmesi planlayın",
+    "cta": "Keşif Görüşmesi Planla"
+  }
+}

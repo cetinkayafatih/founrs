@@ -1,0 +1,69 @@
+{
+  "hero": {
+    "title": "Why n8n Over Zapier?",
+    "subtitle": "When you need more than simple automations",
+    "description": "n8n gives you the power and flexibility to build enterprise-grade automation systems that Zapier simply cannot match."
+  },
+  "comparison": {
+    "title": "Built for Different Needs",
+    "zapier": {
+      "title": "Zapier",
+      "subtitle": "Great for simple automations",
+      "features": [
+        "Easy setup for basic workflows",
+        "Pre-built app connections",
+        "Good for individual users",
+        "Limited customization options"
+      ]
+    },
+    "n8n": {
+      "title": "n8n",
+      "subtitle": "Built for complex systems",
+      "features": [
+        "Unlimited workflow complexity",
+        "Custom logic and data processing", 
+        "Self-hosted control and security",
+        "Enterprise-grade architecture"
+      ]
+    }
+  },
+  "advantages": {
+    "title": "The n8n Advantage",
+    "subtitle": "Why we chose n8n for enterprise automation",
+    "items": {
+      "control": {
+        "title": "Complete Control",
+        "description": "Self-hosted means your data stays in your infrastructure, with full control over security and compliance"
+      },
+      "flexibility": {
+        "title": "Unlimited Flexibility", 
+        "description": "Custom nodes, complex logic, and data transformations that are impossible with cloud-only solutions"
+      },
+      "cost": {
+        "title": "Predictable Costs",
+        "description": "No per-operation pricing means your automation costs don't explode as you scale"
+      },
+      "integration": {
+        "title": "Deep Integrations",
+        "description": "Connect to any system with APIs, databases, or custom protocols—not just pre-built connectors"
+      }
+    }
+  },
+  "useCases": {
+    "title": "When to Choose n8n",
+    "subtitle": "Perfect for these scenarios",
+    "items": [
+      "Complex multi-step workflows with conditional logic",
+      "Data processing and transformation requirements",
+      "Integration with internal systems and databases",
+      "Compliance and security requirements for data handling",
+      "High-volume operations that would be costly on per-operation pricing",
+      "Custom business logic that doesn't fit standard templates"
+    ]
+  },
+  "cta": {
+    "title": "Ready to unlock enterprise automation?",
+    "subtitle": "Let's explore how n8n can solve your complex automation challenges",
+    "cta": "Book Strategy Call"
+  }
+}

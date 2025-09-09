@@ -1,0 +1,41 @@
+{
+  "hero": {
+    "title": "Book Your Discovery Call",
+    "subtitle": "15 minutes to explore your automation potential", 
+    "description": "Let's discuss your current processes and explore how n8n automation can transform your operations."
+  },
+  "form": {
+    "title": "Schedule Your Call",
+    "fields": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "company": "Company Name", 
+      "role": "Your Role",
+      "challenge": "Biggest Process Challenge",
+      "timeline": "Implementation Timeline"
+    },
+    "placeholders": {
+      "name": "John Smith",
+      "email": "john@company.com",
+      "company": "Acme Corp",
+      "role": "Operations Manager",
+      "challenge": "Manual data entry takes 10 hours/week",
+      "timeline": "Next 2-3 months"
+    },
+    "submit": "Book Discovery Call"
+  },
+  "what": {
+    "title": "What to Expect",
+    "items": [
+      "Process review and bottleneck identification",
+      "Automation opportunity assessment", 
+      "n8n solution overview tailored to your needs",
+      "Next steps and timeline discussion"
+    ]
+  },
+  "cta": {
+    "title": "Ready to automate your operations?",
+    "subtitle": "Book your call now and start your automation journey",
+    "cta": "Schedule Call"
+  }
+}

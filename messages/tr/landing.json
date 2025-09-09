@@ -1,0 +1,104 @@
+{
+  "smmm": {
+    "title": "SMMM Suite",
+    "subtitle": "Ön-Muhasebe Otomasyonu",
+    "features": {
+      "collect": {
+        "title": "Topla",
+        "description": "E-fatura, ekstre ve dekontları tüm kaynaklardan otomatik olarak topla"
+      },
+      "control": {
+        "title": "Kontrol Et", 
+        "description": "Google Sheet onay kuyruğu ile mükerrer tespit ve alan doğrulama"
+      },
+      "track": {
+        "title": "İzle",
+        "description": "Tam denetim izi ile müşteri bazlı günlük özet raporları"
+      }
+    },
+    "benefit": "Ön-muhasebe görevlerinde haftada 10–30 saat tasarruf edin",
+    "pricing": {
+      "title": "Basit, Şeffaf Fiyatlandırma",
+      "tiers": {
+        "lite": {
+          "name": "Lite",
+          "price": "$699",
+          "features": [
+            "Temel e-fatura toplama",
+            "Basit onay iş akışı", 
+            "Haftalık raporlar",
+            "E-posta desteği"
+          ]
+        },
+        "core": {
+          "name": "Core",
+          "price": "$1,900", 
+          "popular": "En Popüler",
+          "features": [
+            "Tam e-fatura toplama",
+            "Gelişmiş onay kuyruğu",
+            "Mükerrer tespit",
+            "Günlük özet raporları", 
+            "Öncelikli destek",
+            "Özel alanlar"
+          ]
+        },
+        "pro": {
+          "name": "Pro",
+          "price": "$4,500",
+          "features": [
+            "Core'daki her şey",
+            "Çoklu şirket desteği",
+            "Gelişmiş analitik", 
+            "API entegrasyonları",
+            "Özel iş akışları",
+            "Özel destek"
+          ]
+        }
+      }
+    },
+    "faq": {
+      "title": "Sıkça Sorulan Sorular", 
+      "items": {
+        "implementation": {
+          "question": "Uygulama ne kadar sürer?",
+          "answer": "Standart kurulum için 7 gün. Tüm konfigürasyon ve test işlemlerini biz hallederiz."
+        },
+        "included": {
+          "question": "Kurulumda neler dahil?",
+          "answer": "Tam sistem konfigürasyonu, veri taşıma, takım eğitimi ve 30 gün destek."
+        },
+        "security": {
+          "question": "Verilerim güvenli ve KVKK uyumlu mu?",
+          "answer": "Evet, sistem kendi hesabınızda kısıtlı ve loglu erişimle kurulur. Tam KVKK uyumluluğu dahildir."
+        },
+        "upgrade": {
+          "question": "Planımı sonra yükseltebilir miyim?", 
+          "answer": "Kesinlikle. Blueprint/Build kredileri 30 gün içinde yükseltmelerde geçerlidir."
+        }
+      }
+    },
+    "cta": {
+      "title": "Ön-muhasebe işlemlerinizi otomatikleştirmeye hazır mısınız?",
+      "subtitle": "İşiniz için tam olarak nasıl çalıştığını 2 dakikada görün",
+      "button": "Ücretsiz demo hazırla →",
+      "mobile": "Ücretsiz 2 dakika demo hazırla →"
+    },
+    "modal": {
+      "title": "Demo Talep Et",
+      "fields": {
+        "name": "Ad",
+        "email": "E-posta", 
+        "company": "Şirket"
+      },
+      "placeholders": {
+        "name": "Ahmet Yılmaz",
+        "email": "ahmet@sirket.com",
+        "company": "Acme Corp"
+      },
+      "submit": "Demo Talep Et",
+      "sending": "Gönderiliyor...",
+      "success": "Demo talebiniz gönderildi! 24 saat içinde sizinle iletişime geçeceğiz."
+    }
+  }
+}

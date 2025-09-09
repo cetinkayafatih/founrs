@@ -1,5 +1,5 @@
-import { Inter, Space_Grotesk, JetBrains_Mono } from 'next/font/google'
 import type { Metadata } from 'next'
+import { Inter, Space_Grotesk, JetBrains_Mono } from 'next/font/google'
 
 import './globals.css'
 
@@ -19,9 +19,10 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://founrs.com'),
   title: {
     default: 'FOUNRS — AI Systems & Ops',
-    template: '%s | FOUNRS',
+    template: '%s — FOUNRS',
   },
   description:
     'We design the intelligent automation foundations that power your growth. Beyond simple zaps—robust, scalable n8n systems delivered in 7 days.',
@@ -30,14 +31,30 @@ export const metadata: Metadata = {
     'n8n',
     'AI systems',
     'workflow automation',
-    'business process',
+    'business process automation',
+    'digital transformation',
+    'system integration',
+    'operations automation',
   ],
-  authors: [{ name: 'FOUNRS' }],
+  authors: [{ name: 'FOUNRS Team' }],
   creator: 'FOUNRS',
+  publisher: 'FOUNRS',
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  alternates: {
+    canonical: '/',
+    languages: {
+      'en-US': '/en-US',
+      'tr-TR': '/tr-TR',
+    },
+  },
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    alternateLocale: 'tr_TR',
+    alternateLocale: ['tr_TR'],
     url: 'https://founrs.com',
     siteName: 'FOUNRS',
     title: 'FOUNRS — AI Systems & Ops',
@@ -49,6 +66,7 @@ export const metadata: Metadata = {
         width: 1200,
         height: 630,
         alt: 'FOUNRS — AI Systems & Ops',
+        type: 'image/jpeg',
       },
     ],
   },
@@ -58,6 +76,8 @@ export const metadata: Metadata = {
     description:
       'We design the intelligent automation foundations that power your growth.',
     images: ['/og-image.jpg'],
+    creator: '@founrs',
+    site: '@founrs',
   },
   robots: {
     index: true,
@@ -68,6 +88,13 @@ export const metadata: Metadata = {
       'max-video-preview': -1,
       'max-image-preview': 'large',
       'max-snippet': -1,
+    },
+  },
+  verification: {
+    google: 'your-google-verification-code',
+    yandex: 'your-yandex-verification-code',
+    other: {
+      'msvalidate.01': 'your-bing-verification-code',
     },
   },
 }
@@ -82,11 +109,7 @@ export default function RootLayout({
       lang="en"
       className={`${inter.variable} ${spaceGrotesk.variable} ${jetbrainsMono.variable}`}
     >
-      <head>
-        <link rel="alternate" hrefLang="en" href="https://founrs.com" />
-        <link rel="alternate" hrefLang="tr" href="https://founrs.com/tr" />
-        <link rel="canonical" href="https://founrs.com" />
-      </head>
+      <head />
       <body className="bg-bg text-fg antialiased">{children}</body>
     </html>
   )
