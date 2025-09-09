@@ -41,16 +41,19 @@
     "items": {
       "timeSaved": {
         "label": "Time Saved",
+        "suffix": " hours/week",
         "footnote": "Average across all clients",
         "tooltip": "Based on analysis of 50+ client implementations. Time saved includes manual data entry, validation, and report generation."
       },
       "errorReduction": {
         "label": "Error Reduction", 
+        "suffix": "%",
         "footnote": "Typical range 30-60%",
         "tooltip": "Reduction in data entry errors, duplicate processing, and manual validation mistakes through automation."
       },
       "payback": {
         "label": "Payback Period",
+        "suffix": " weeks",
         "footnote": "Based on time savings", 
         "tooltip": "Average time to recover implementation investment through operational efficiency gains and reduced manual work."
       }

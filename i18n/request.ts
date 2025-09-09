@@ -1,17 +1,14 @@
 import { getRequestConfig } from 'next-intl/server'
+import { locales, type Locale } from './routing'
+import getMessages from './getMessages'
 
-import { locales } from './routing'
- 
 export default getRequestConfig(async ({ locale }) => {
-  // Validate that the incoming `locale` parameter is valid
-  if (!locales.includes(locale as any)) {
-    return {
-      messages: {}
-    }
+  if (!locales.includes(locale as Locale)) {
+    return { messages: {} }
   }
- 
+
   return {
-    messages: (await import(`../messages/${locale}.json`)).default
+    messages: await getMessages(locale as Locale),
   }
 })
 

@@ -41,16 +41,19 @@
     "items": {
       "timeSaved": {
         "label": "Zaman Tasarrufu",
+        "suffix": " saat/hafta",
         "footnote": "Tüm müşteriler ortalaması",
         "tooltip": "50+ müşteri uygulaması analizine dayalı. Tasarruf edilen zaman manuel veri girişi, doğrulama ve rapor oluşturmayı içerir."
       },
       "errorReduction": {
         "label": "Hata Azalması", 
+        "suffix": "%",
         "footnote": "Tipik aralık %30-60",
         "tooltip": "Otomasyon ile veri giriş hataları, mükerrer işlem ve manuel doğrulama hatalarında azalma."
       },
       "payback": {
         "label": "Geri Ödeme Süresi",
+        "suffix": " hafta",
         "footnote": "Zaman tasarrufuna dayalı", 
         "tooltip": "Operasyonel verimlilik kazanımları ve azalan manuel iş ile uygulama yatırımını geri alma ortalama süresi."
       }
